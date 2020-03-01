@@ -1,0 +1,37 @@
+{
+  "name": "reapptx",
+  "version": "1.0.0",
+  "description": "[POC] react renderer for pptx",
+  "author": "ArvinH",
+  "main": "index.js",
+  "keywords": [
+    "react",
+    "renderer",
+    "poc",
+    "pptx"
+  ],
+  "engines": {
+    "node": ">=8.1.2"
+  },
+  "dependencies": {
+    "fbjs": "^0.8.16",
+    "officegen": "^0.4.5",
+    "react": "^16.4.0",
+    "react-reconciler": "^0.11.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.8.6",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.6",
+    "@babel/preset-react": "^7.8.3",
+    "jest": "^21.2.1"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production ./node_modules/.bin/babel src -d build",
+    "demo": "./node_modules/.bin/babel-node ./demo/App.js",
+    "test": "./node_modules/.bin/jest",
+    "test:watch": "./node_modules/.bin/jest --watch"
+  },
+  "license": "MIT"
+}
