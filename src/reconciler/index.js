@@ -1,11 +1,9 @@
-// import emptyObject from 'fbjs/lib/emptyObject';
-// import { createElement, getHostContextNode } from '../utils/createElement';
 import { Text, Slide, PPTXDocument } from '../components';
 
 const Reconciler = require('react-reconciler');
 let ROOT_NODE_INSTANCE = null;
 
-const PPTXRenderer = Reconciler({
+const hostConfig = {
 	appendInitialChild(parentInstance, child) {
 		if (parentInstance.appendChild) {
 			parentInstance.appendChild(child);
@@ -74,6 +72,7 @@ const PPTXRenderer = Reconciler({
 	useSyncScheduling: true,
 
 	supportsMutation: false,
-});
+};
+const PPTXRenderer = Reconciler(hostConfig);
 
 export default PPTXRenderer;
