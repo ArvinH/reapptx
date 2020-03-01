@@ -49,6 +49,14 @@ const hostConfig = {
 		// noop
 	},
 
+	appendChildToContainer() {
+		// noop
+	},
+
+	removeChildFromContainer() {
+		// noop
+	},
+
 	getRootHostContext(instance) {
 		if (typeof instance !== undefined) {
 			return (ROOT_NODE_INSTANCE = instance);
@@ -71,7 +79,7 @@ const hostConfig = {
 
 	useSyncScheduling: true,
 
-	supportsMutation: false,
+	supportsMutation: true,
 };
 const PPTXRenderer = Reconciler(hostConfig);
 

@@ -7,7 +7,7 @@ class App extends Component {
 		return (
 			<React.Fragment>
 				<Slide>
-					<Text>Slide 1</Text>
+					<Text>Slide 1 😁</Text>
 				</Slide>
 				<Slide>
 					<Text>Slide 2</Text>
