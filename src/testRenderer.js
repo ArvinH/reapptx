@@ -1,11 +1,11 @@
 import { PPTXDocument } from '../src/components';
-import WordRenderer from './reconciler';
+import PPTXRenderer from './reconciler';
 
 function render(element) {
 	const container = new PPTXDocument();
-	const node = WordRenderer.createContainer(container);
+	const node = PPTXRenderer.createContainer(container);
 
-	WordRenderer.updateContainer(element, node, null);
+	PPTXRenderer.updateContainer(element, node, null);
 
 	return container;
 }

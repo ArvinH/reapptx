@@ -30,11 +30,11 @@ async function render(component, filePath) {
 	});
 }
 
-// Handle docx events (optional)
+// Handle pptx events (optional) (provided by officegen)
 function Events(filePath, resolve, reject) {
 	return {
 		finalize: () => {
-			console.log(`✨  Word document created at ${path.resolve(filePath)}.`);
+			console.log(`✨ PPTX document created at ${path.resolve(filePath)}.`);
 			resolve();
 		},
 		error: () => {

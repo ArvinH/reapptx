@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slide, Text } from '../src/';
+import { Slide, Text } from '../src';
 import render from '../src/testRenderer';
 
 it('sanity check', () => {

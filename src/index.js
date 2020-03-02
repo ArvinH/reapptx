@@ -1,6 +1,6 @@
 import render from './render';
 
-// Aliases for createElement method
+// Aliases for createInstance
 const Text = 'TEXT';
 const Slide = 'SLIDE';
 
