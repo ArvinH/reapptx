@@ -5,6 +5,10 @@
 
 A small prototype of custom react renderer, let you render React component to pptx files.
 
+## Blog
+
+[製作 Custom React renderer - 用 React 寫 ppt](https://blog.techbridge.cc/2020/03/02/custom-react-renderer-pptx/)
+
 ## How to
 
 ```
