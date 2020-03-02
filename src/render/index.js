@@ -3,8 +3,8 @@ import path from 'path';
 import PPTXRenderer from '../reconciler';
 import { PPTXDocument } from '../components'
 
-// Renders the input component
-async function render(element, filePath) {
+// Render component
+async function render(component, filePath) {
 	// Create root container instance
 	const container = new PPTXDocument();
 
@@ -12,20 +12,20 @@ async function render(element, filePath) {
 	const node = PPTXRenderer.createContainer(container);
 
 	// Schedules a top level update with current fiber and a priority level (depending upon the context)
-	PPTXRenderer.updateContainer(element, node, null);
+	PPTXRenderer.updateContainer(component, node, null);
 
 	// PPTXRenderer.injectIntoDevTools({
 	//   bundleType: 1,
 	//   version: '0.1.0',
 	//   rendererPackageName: 'custom-renderer',
-	//   findHostInstanceByFiber: WordRenderer.findHostInstance
+	//   findHostInstanceByFiber: PTTXRenderer.findHostInstance
 	// })
 
 	// Officegen generates a output stream and not a file
 	const stream = fs.createWriteStream(filePath);
 
 	await new Promise((resolve, reject) => {
-		// Generate a word document
+		// Generate a pptx document
 		container.pptx.generate(stream, Events(filePath, resolve, reject));
 	});
 }

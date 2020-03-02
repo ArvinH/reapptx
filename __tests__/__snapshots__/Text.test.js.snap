@@ -1,708 +1,1433 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`sanity check 1`] = `
-WordDocument {
-  "doc": officegen {
+PPTXDocument {
+  "pptx": officegen {
     "_events": Object {
       "afterGen": [Function],
       "beforeGen": [Function],
-      "clearData": [Function],
       "clearDoc": [Function],
       "clearDocType": [Function],
     },
-    "_eventsCount": 5,
+    "_eventsCount": 4,
     "_maxListeners": undefined,
-    "addPageBreak": [Function],
     "addResourceToParse": [Function],
-    "cbMakeDocxDocument": [Function],
-    "createByJson": [Function],
-    "createJson": [Function],
-    "createListOfDots": [Function],
-    "createListOfNumbers": [Function],
-    "createP": [Function],
-    "createTable": [Function],
-    "data": Array [
-      MakeDocxP {
-        "data": Array [
-          Object {
-            "ext_data": undefined,
-            "options": Object {},
-            "text": "Hello World!",
-          },
-        ],
-        "docType": "docx",
-        "extraSettings": Object {},
-        "filesList": Array [
-          Object {
-            "clear": "type",
-            "ext": "rels",
-            "type": "application/vnd.openxmlformats-package.relationships+xml",
-          },
-          Object {
-            "clear": "type",
-            "ext": "xml",
-            "type": "application/xml",
-          },
-          Object {
-            "clear": "type",
-            "ext": "jpeg",
-            "type": "image/jpeg",
-          },
-          Object {
-            "clear": "type",
-            "ext": "png",
-            "type": "image/png",
-          },
-          Object {
-            "clear": "type",
-            "ext": "gif",
-            "type": "image/gif",
-          },
-          Object {
-            "clear": "type",
-            "name": "/docProps/app.xml",
-            "type": "application/vnd.openxmlformats-officedocument.extended-properties+xml",
-          },
-          Object {
-            "clear": "type",
-            "name": "/word/theme/theme1.xml",
-            "type": "application/vnd.openxmlformats-officedocument.theme+xml",
-          },
-          Object {
-            "clear": "type",
-            "name": "/docProps/core.xml",
-            "type": "application/vnd.openxmlformats-package.core-properties+xml",
-          },
-          Object {
-            "clear": "type",
-            "name": "/word/settings.xml",
-            "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml",
-          },
-          Object {
-            "clear": "type",
-            "name": "/word/fontTable.xml",
-            "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml",
-          },
-          Object {
-            "clear": "type",
-            "name": "/word/webSettings.xml",
-            "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.webSettings+xml",
-          },
-          Object {
-            "clear": "type",
-            "name": "/word/styles.xml",
-            "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml",
-          },
-          Object {
-            "clear": "type",
-            "name": "/word/document.xml",
-            "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml",
-          },
-          Object {
-            "clear": "type",
-            "name": "/word/numbering.xml",
-            "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml",
-          },
-        ],
-        "genPrivate": Object {
-          "features": Object {
-            "outputType": "zip",
-            "type": Object {
-              "docx": MakeDocPluginapi {
-                "callbacksList": Object {
-                  "beforeGen": Array [
-                    [Function],
-                  ],
-                  "makeDocApi": Array [
-                    [Function],
-                  ],
-                },
-                "defValuesFunc": [Function],
-                "docType": "docx",
-                "genPrivate": [Circular],
-                "genobj": [Circular],
-                "ogPluginsApi": Object {
-                  "intAddAnyResourceToParse": [Function],
-                  "type": Object {
-                    "msoffice": Object {
-                      "addInfoType": [Function],
-                      "cbMakeMsOfficeBasicXml": [Function],
-                      "cbMakeRels": [Function],
-                      "makeOfficeGenerator": [Function],
-                      "makeUniqueID": [Function],
-                    },
-                  },
-                },
-                "plugsList": Array [
-                  MakeHeadfootPlugin {
-                    "docxData": Object {},
-                    "filesList": Array [
-                      Object {
-                        "clear": "type",
-                        "ext": "rels",
-                        "type": "application/vnd.openxmlformats-package.relationships+xml",
-                      },
-                      Object {
-                        "clear": "type",
-                        "ext": "xml",
-                        "type": "application/xml",
-                      },
-                      Object {
-                        "clear": "type",
-                        "ext": "jpeg",
-                        "type": "image/jpeg",
-                      },
-                      Object {
-                        "clear": "type",
-                        "ext": "png",
-                        "type": "image/png",
-                      },
-                      Object {
-                        "clear": "type",
-                        "ext": "gif",
-                        "type": "image/gif",
-                      },
-                      Object {
-                        "clear": "type",
-                        "name": "/docProps/app.xml",
-                        "type": "application/vnd.openxmlformats-officedocument.extended-properties+xml",
-                      },
-                      Object {
-                        "clear": "type",
-                        "name": "/word/theme/theme1.xml",
-                        "type": "application/vnd.openxmlformats-officedocument.theme+xml",
-                      },
-                      Object {
-                        "clear": "type",
-                        "name": "/docProps/core.xml",
-                        "type": "application/vnd.openxmlformats-package.core-properties+xml",
-                      },
-                      Object {
-                        "clear": "type",
-                        "name": "/word/settings.xml",
-                        "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml",
-                      },
-                      Object {
-                        "clear": "type",
-                        "name": "/word/fontTable.xml",
-                        "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml",
-                      },
-                      Object {
-                        "clear": "type",
-                        "name": "/word/webSettings.xml",
-                        "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.webSettings+xml",
-                      },
-                      Object {
-                        "clear": "type",
-                        "name": "/word/styles.xml",
-                        "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml",
-                      },
-                      Object {
-                        "clear": "type",
-                        "name": "/word/document.xml",
-                        "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml",
-                      },
-                      Object {
-                        "clear": "type",
-                        "name": "/word/numbering.xml",
-                        "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml",
-                      },
-                    ],
-                    "mainPath": "word",
-                    "mainPathFile": "document",
-                    "msPluginsApi": Object {
-                      "addInfoType": [Function],
-                      "cbMakeMsOfficeBasicXml": [Function],
-                      "cbMakeRels": [Function],
-                      "makeOfficeGenerator": [Function],
-                      "makeUniqueID": [Function],
-                    },
-                    "ogPluginsApi": Object {
-                      "intAddAnyResourceToParse": [Function],
-                      "type": Object {
-                        "msoffice": Object {
-                          "addInfoType": [Function],
-                          "cbMakeMsOfficeBasicXml": [Function],
-                          "cbMakeRels": [Function],
-                          "makeOfficeGenerator": [Function],
-                          "makeUniqueID": [Function],
-                        },
-                      },
-                    },
-                    "pluginsman": [Circular],
-                    "relsApp": Array [
-                      Object {
-                        "clear": "type",
-                        "target": "styles.xml",
-                        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles",
-                      },
-                      Object {
-                        "clear": "type",
-                        "target": "settings.xml",
-                        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings",
-                      },
-                      Object {
-                        "clear": "type",
-                        "target": "webSettings.xml",
-                        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings",
-                      },
-                      Object {
-                        "clear": "type",
-                        "target": "fontTable.xml",
-                        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable",
-                      },
-                      Object {
-                        "clear": "type",
-                        "target": "theme/theme1.xml",
-                        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme",
-                      },
-                      Object {
-                        "clear": "type",
-                        "target": "numbering.xml",
-                        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering",
-                      },
-                    ],
-                    "relsMain": Array [
-                      Object {
-                        "clear": "type",
-                        "target": "docProps/app.xml",
-                        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties",
-                      },
-                      Object {
-                        "clear": "type",
-                        "target": "docProps/core.xml",
-                        "type": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties",
-                      },
-                      Object {
-                        "clear": "type",
-                        "target": "word/document.xml",
-                        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument",
-                      },
-                    ],
-                    "srcFilesList": Array [],
-                  },
-                ],
-              },
-              "msoffice": Object {
-                "main_path": "word",
-                "main_path_file": "document",
-              },
-            },
-          },
-          "length": 0,
-          "pages": Array [],
-          "plugs": Object {
-            "intAddAnyResourceToParse": [Function],
-            "type": Object {
-              "msoffice": Object {
-                "addInfoType": [Function],
-                "cbMakeMsOfficeBasicXml": [Function],
-                "cbMakeRels": [Function],
-                "makeOfficeGenerator": [Function],
-                "makeUniqueID": [Function],
-              },
-            },
-          },
-          "resources": Array [
-            Object {
-              "callback": [Function],
-              "data": Array [
-                Object {
-                  "clear": "type",
-                  "target": "docProps/app.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties",
-                },
-                Object {
-                  "clear": "type",
-                  "target": "docProps/core.xml",
-                  "type": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties",
-                },
-                Object {
-                  "clear": "type",
-                  "target": "word/document.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument",
-                },
-              ],
-              "is_perment": true,
-              "name": "_rels\\\\.rels",
-              "removed_after_used": false,
-              "type": "buffer",
-            },
-            Object {
-              "callback": [Function],
-              "data": null,
-              "is_perment": true,
-              "name": "[Content_Types].xml",
-              "removed_after_used": false,
-              "type": "buffer",
-            },
-            Object {
-              "callback": [Function],
-              "data": null,
-              "is_perment": true,
-              "name": "docProps\\\\core.xml",
-              "removed_after_used": false,
-              "type": "buffer",
-            },
-            Object {
-              "callback": [Function],
-              "data": null,
-              "is_perment": true,
-              "name": "word\\\\theme\\\\theme1.xml",
-              "removed_after_used": false,
-              "type": "buffer",
-            },
-            Object {
-              "callback": [Function],
-              "data": null,
-              "is_perment": true,
-              "name": "docProps\\\\app.xml",
-              "removed_after_used": false,
-              "type": "buffer",
-            },
-            Object {
-              "callback": [Function],
-              "data": null,
-              "is_perment": true,
-              "name": "word\\\\fontTable.xml",
-              "removed_after_used": false,
-              "type": "buffer",
-            },
-            Object {
-              "callback": [Function],
-              "data": null,
-              "is_perment": true,
-              "name": "word\\\\settings.xml",
-              "removed_after_used": false,
-              "type": "buffer",
-            },
-            Object {
-              "callback": [Function],
-              "data": null,
-              "is_perment": true,
-              "name": "word\\\\webSettings.xml",
-              "removed_after_used": false,
-              "type": "buffer",
-            },
-            Object {
-              "callback": [Function],
-              "data": null,
-              "is_perment": true,
-              "name": "word\\\\styles.xml",
-              "removed_after_used": false,
-              "type": "buffer",
-            },
-            Object {
-              "callback": [Function],
-              "data": Object {
-                "data": [Circular],
-                "docEndExtra": "</w:body>",
-                "docStartExtra": "<w:body>",
-                "docType": "document",
-              },
-              "is_perment": true,
-              "name": "word\\\\document.xml",
-              "removed_after_used": false,
-              "type": "buffer",
-            },
-            Object {
-              "callback": [Function],
-              "data": null,
-              "is_perment": true,
-              "name": "word\\\\numbering.xml",
-              "removed_after_used": false,
-              "type": "buffer",
-            },
-            Object {
-              "callback": [Function],
-              "data": Array [
-                Object {
-                  "clear": "type",
-                  "target": "styles.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles",
-                },
-                Object {
-                  "clear": "type",
-                  "target": "settings.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings",
-                },
-                Object {
-                  "clear": "type",
-                  "target": "webSettings.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings",
-                },
-                Object {
-                  "clear": "type",
-                  "target": "fontTable.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable",
-                },
-                Object {
-                  "clear": "type",
-                  "target": "theme/theme1.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme",
-                },
-                Object {
-                  "clear": "type",
-                  "target": "numbering.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering",
-                },
-              ],
-              "is_perment": true,
-              "name": "word\\\\_rels\\\\document.xml.rels",
-              "removed_after_used": false,
-              "type": "buffer",
-            },
-          ],
-          "type": Object {
-            "docx": Object {},
-            "msoffice": Object {
-              "files_list": Array [
-                Object {
-                  "clear": "type",
-                  "ext": "rels",
-                  "type": "application/vnd.openxmlformats-package.relationships+xml",
-                },
-                Object {
-                  "clear": "type",
-                  "ext": "xml",
-                  "type": "application/xml",
-                },
-                Object {
-                  "clear": "type",
-                  "ext": "jpeg",
-                  "type": "image/jpeg",
-                },
-                Object {
-                  "clear": "type",
-                  "ext": "png",
-                  "type": "image/png",
-                },
-                Object {
-                  "clear": "type",
-                  "ext": "gif",
-                  "type": "image/gif",
-                },
-                Object {
-                  "clear": "type",
-                  "name": "/docProps/app.xml",
-                  "type": "application/vnd.openxmlformats-officedocument.extended-properties+xml",
-                },
-                Object {
-                  "clear": "type",
-                  "name": "/word/theme/theme1.xml",
-                  "type": "application/vnd.openxmlformats-officedocument.theme+xml",
-                },
-                Object {
-                  "clear": "type",
-                  "name": "/docProps/core.xml",
-                  "type": "application/vnd.openxmlformats-package.core-properties+xml",
-                },
-                Object {
-                  "clear": "type",
-                  "name": "/word/settings.xml",
-                  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml",
-                },
-                Object {
-                  "clear": "type",
-                  "name": "/word/fontTable.xml",
-                  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml",
-                },
-                Object {
-                  "clear": "type",
-                  "name": "/word/webSettings.xml",
-                  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.webSettings+xml",
-                },
-                Object {
-                  "clear": "type",
-                  "name": "/word/styles.xml",
-                  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml",
-                },
-                Object {
-                  "clear": "type",
-                  "name": "/word/document.xml",
-                  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml",
-                },
-                Object {
-                  "clear": "type",
-                  "name": "/word/numbering.xml",
-                  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml",
-                },
-              ],
-              "rels_app": Array [
-                Object {
-                  "clear": "type",
-                  "target": "styles.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles",
-                },
-                Object {
-                  "clear": "type",
-                  "target": "settings.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings",
-                },
-                Object {
-                  "clear": "type",
-                  "target": "webSettings.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings",
-                },
-                Object {
-                  "clear": "type",
-                  "target": "fontTable.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable",
-                },
-                Object {
-                  "clear": "type",
-                  "target": "theme/theme1.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme",
-                },
-                Object {
-                  "clear": "type",
-                  "target": "numbering.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering",
-                },
-              ],
-              "rels_main": Array [
-                Object {
-                  "clear": "type",
-                  "target": "docProps/app.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties",
-                },
-                Object {
-                  "clear": "type",
-                  "target": "docProps/core.xml",
-                  "type": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties",
-                },
-                Object {
-                  "clear": "type",
-                  "target": "word/document.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument",
-                },
-              ],
-              "src_files_list": Array [],
-            },
-          },
-        },
-        "genobj": [Circular],
-        "mainPath": "word",
-        "mainPathFile": "document",
-        "msPluginsApi": Object {
-          "addInfoType": [Function],
-          "cbMakeMsOfficeBasicXml": [Function],
-          "cbMakeRels": [Function],
-          "makeOfficeGenerator": [Function],
-          "makeUniqueID": [Function],
-        },
-        "ogPluginsApi": Object {
-          "intAddAnyResourceToParse": [Function],
-          "type": Object {
-            "msoffice": Object {
-              "addInfoType": [Function],
-              "cbMakeMsOfficeBasicXml": [Function],
-              "cbMakeRels": [Function],
-              "makeOfficeGenerator": [Function],
-              "makeUniqueID": [Function],
-            },
-          },
-        },
-        "options": Object {},
-        "relsApp": Array [
-          Object {
-            "clear": "type",
-            "target": "styles.xml",
-            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles",
-          },
-          Object {
-            "clear": "type",
-            "target": "settings.xml",
-            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings",
-          },
-          Object {
-            "clear": "type",
-            "target": "webSettings.xml",
-            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings",
-          },
-          Object {
-            "clear": "type",
-            "target": "fontTable.xml",
-            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable",
-          },
-          Object {
-            "clear": "type",
-            "target": "theme/theme1.xml",
-            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme",
-          },
-          Object {
-            "clear": "type",
-            "target": "numbering.xml",
-            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering",
-          },
-        ],
-        "relsMain": Array [
-          Object {
-            "clear": "type",
-            "target": "docProps/app.xml",
-            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties",
-          },
-          Object {
-            "clear": "type",
-            "target": "docProps/core.xml",
-            "type": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties",
-          },
-          Object {
-            "clear": "type",
-            "target": "word/document.xml",
-            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument",
-          },
-        ],
-        "srcFilesList": Array [],
-      },
-    ],
-    "domain": null,
+    "cMakePptxOutTextP": [Function],
+    "cbMakePptxLayout1": [Function],
+    "cbMakePptxSlide": [Function],
+    "createFieldText": [Function],
+    "fields": Object {
+      "DATE_DD_MN_YYYY": "datetime3",
+      "DATE_DD_SMN_YY": "datetime5",
+      "DATE_MM_DD_YYYY": "datetime1",
+      "DATE_MM_YY": "datetime6",
+      "DATE_MN_DD_YYYY": "datetime4",
+      "DATE_SMN_YY": "datetime7",
+      "DATE_TIME": "datetime",
+      "DATE_TIME_DD_MM_YYYY_HH_MM_PM": "datetime8",
+      "DATE_TIME_DD_MM_YYYY_HH_MM_SC_PM": "datetime9",
+      "DATE_WD_MN_DD_YYYY": "datetime2",
+      "SLIDE_NUM": "slidenum",
+      "TIME_HH_MM": "datetime10",
+      "TIME_HH_MM_PM": "datetime12",
+      "TIME_HH_MM_SC": "datetime11",
+      "TIME_HH_MM_SC_PM": "datetime13",
+    },
     "generate": [Function],
-    "getFooter": [Function],
-    "getHeader": [Function],
     "info": Object {
-      "cp:category": Object {
-        "data": "",
-        "def_data": "",
-        "element": "cp:category",
-      },
-      "cp:contentStatus": Object {
-        "data": "",
-        "def_data": "",
-        "element": "cp:contentStatus",
-      },
-      "cp:keywords": Object {
-        "data": "",
-        "def_data": "",
-        "element": "cp:keywords",
-      },
-      "dc:description": Object {
-        "data": "",
-        "def_data": "",
-        "element": "dc:description",
-      },
-      "dc:subject": Object {
-        "data": "",
-        "def_data": "",
-        "element": "dc:subject",
-      },
       "dc:title": Object {
         "data": "",
         "def_data": "",
         "element": "dc:title",
       },
     },
+    "makeNewLayout": [Function],
+    "makeNewSlide": [Function],
+    "makeObjSlide": [Function],
+    "makeSecHeadSlide": [Function],
+    "makeTitleSlide": [Function],
     "options": Object {
-      "type": "docx",
+      "tempDir": "./",
+      "type": "pptx",
     },
-    "putPageBreak": [Function],
-    "setDescription": [Function],
-    "setDocCategory": [Function],
-    "setDocKeywords": [Function],
-    "setDocStatus": [Function],
-    "setDocSubject": [Function],
     "setDocTitle": [Function],
+    "setSlideSize": [Function],
     "setTheme": [Function],
+    "setWidescreen": [Function],
+    "shapes": Object {
+      "ACTION_BUTTON_BACK_OR_PREVIOUS": Object {
+        "avLst": Object {},
+        "displayName": "Action Button: Back or Previous",
+        "name": "actionButtonBackPrevious",
+      },
+      "ACTION_BUTTON_BEGINNING": Object {
+        "avLst": Object {},
+        "displayName": "Action Button: Beginning",
+        "name": "actionButtonBeginning",
+      },
+      "ACTION_BUTTON_CUSTOM": Object {
+        "avLst": Object {},
+        "displayName": "Action Button: Custom",
+        "name": "actionButtonBlank",
+      },
+      "ACTION_BUTTON_DOCUMENT": Object {
+        "avLst": Object {},
+        "displayName": "Action Button: Document",
+        "name": "actionButtonDocument",
+      },
+      "ACTION_BUTTON_END": Object {
+        "avLst": Object {},
+        "displayName": "Action Button: End",
+        "name": "actionButtonEnd",
+      },
+      "ACTION_BUTTON_FORWARD_OR_NEXT": Object {
+        "avLst": Object {},
+        "displayName": "Action Button: Forward or Next",
+        "name": "actionButtonForwardNext",
+      },
+      "ACTION_BUTTON_HELP": Object {
+        "avLst": Object {},
+        "displayName": "Action Button: Help",
+        "name": "actionButtonHelp",
+      },
+      "ACTION_BUTTON_HOME": Object {
+        "avLst": Object {},
+        "displayName": "Action Button: Home",
+        "name": "actionButtonHome",
+      },
+      "ACTION_BUTTON_INFORMATION": Object {
+        "avLst": Object {},
+        "displayName": "Action Button: Information",
+        "name": "actionButtonInformation",
+      },
+      "ACTION_BUTTON_MOVIE": Object {
+        "avLst": Object {},
+        "displayName": "Action Button: Movie",
+        "name": "actionButtonMovie",
+      },
+      "ACTION_BUTTON_RETURN": Object {
+        "avLst": Object {},
+        "displayName": "Action Button: Return",
+        "name": "actionButtonReturn",
+      },
+      "ACTION_BUTTON_SOUND": Object {
+        "avLst": Object {},
+        "displayName": "Action Button: Sound",
+        "name": "actionButtonSound",
+      },
+      "ARC": Object {
+        "avLst": Object {
+          "adj1": 16200000,
+          "adj2": 0,
+        },
+        "displayName": "Arc",
+        "name": "arc",
+      },
+      "BALLOON": Object {
+        "avLst": Object {
+          "adj1": -20833,
+          "adj2": 62500,
+          "adj3": 16667,
+        },
+        "displayName": "Rounded Rectangular Callout",
+        "name": "wedgeRoundRectCallout",
+      },
+      "BENT_ARROW": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 25000,
+          "adj3": 25000,
+          "adj4": 43750,
+        },
+        "displayName": "Bent Arrow",
+        "name": "bentArrow",
+      },
+      "BENT_UP_ARROW": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 25000,
+          "adj3": 25000,
+        },
+        "displayName": "Bent-Up Arrow",
+        "name": "bentUpArrow",
+      },
+      "BEVEL": Object {
+        "avLst": Object {
+          "adj": 12500,
+        },
+        "displayName": "Bevel",
+        "name": "bevel",
+      },
+      "BLOCK_ARC": Object {
+        "avLst": Object {
+          "adj1": 10800000,
+          "adj2": 0,
+          "adj3": 25000,
+        },
+        "displayName": "Block Arc",
+        "name": "blockArc",
+      },
+      "CAN": Object {
+        "avLst": Object {
+          "adj": 25000,
+        },
+        "displayName": "Can",
+        "name": "can",
+      },
+      "CHART_PLUS": Object {
+        "avLst": Object {},
+        "displayName": "Chart Plus",
+        "name": "chartPlus",
+      },
+      "CHART_STAR": Object {
+        "avLst": Object {},
+        "displayName": "Chart Star",
+        "name": "chartStar",
+      },
+      "CHART_X": Object {
+        "avLst": Object {},
+        "displayName": "Chart X",
+        "name": "chartX",
+      },
+      "CHEVRON": Object {
+        "avLst": Object {
+          "adj": 50000,
+        },
+        "displayName": "Chevron",
+        "name": "chevron",
+      },
+      "CHORD": Object {
+        "avLst": Object {
+          "adj1": 2700000,
+          "adj2": 16200000,
+        },
+        "displayName": "Chord",
+        "name": "chord",
+      },
+      "CIRCULAR_ARROW": Object {
+        "avLst": Object {
+          "adj1": 12500,
+          "adj2": 1142319,
+          "adj3": 20457681,
+          "adj4": 10800000,
+          "adj5": 12500,
+        },
+        "displayName": "Circular Arrow",
+        "name": "circularArrow",
+      },
+      "CLOUD": Object {
+        "avLst": Object {},
+        "displayName": "Cloud",
+        "name": "cloud",
+      },
+      "CLOUD_CALLOUT": Object {
+        "avLst": Object {
+          "adj1": -20833,
+          "adj2": 62500,
+        },
+        "displayName": "Cloud Callout",
+        "name": "cloudCallout",
+      },
+      "CORNER": Object {
+        "avLst": Object {
+          "adj1": 50000,
+          "adj2": 50000,
+        },
+        "displayName": "Corner",
+        "name": "corner",
+      },
+      "CORNER_TABS": Object {
+        "avLst": Object {},
+        "displayName": "Corner Tabs",
+        "name": "cornerTabs",
+      },
+      "CROSS": Object {
+        "avLst": Object {
+          "adj": 25000,
+        },
+        "displayName": "Cross",
+        "name": "plus",
+      },
+      "CUBE": Object {
+        "avLst": Object {
+          "adj": 25000,
+        },
+        "displayName": "Cube",
+        "name": "cube",
+      },
+      "CURVED_CONNECTOR_3": Object {
+        "avLst": Object {
+          "adj1": 1800000,
+        },
+        "displayName": "Curved Connector 3",
+        "name": "curvedConnector3",
+      },
+      "CURVED_DOWN_ARROW": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 50000,
+          "adj3": 25000,
+        },
+        "displayName": "Curved Down Arrow",
+        "name": "curvedDownArrow",
+      },
+      "CURVED_DOWN_RIBBON": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 50000,
+          "adj3": 12500,
+        },
+        "displayName": "Curved Down Ribbon",
+        "name": "ellipseRibbon",
+      },
+      "CURVED_LEFT_ARROW": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 50000,
+          "adj3": 25000,
+        },
+        "displayName": "Curved Left Arrow",
+        "name": "curvedLeftArrow",
+      },
+      "CURVED_RIGHT_ARROW": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 50000,
+          "adj3": 25000,
+        },
+        "displayName": "Curved Right Arrow",
+        "name": "curvedRightArrow",
+      },
+      "CURVED_UP_ARROW": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 50000,
+          "adj3": 25000,
+        },
+        "displayName": "Curved Up Arrow",
+        "name": "curvedUpArrow",
+      },
+      "CURVED_UP_RIBBON": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 50000,
+          "adj3": 12500,
+        },
+        "displayName": "Curved Up Ribbon",
+        "name": "ellipseRibbon2",
+      },
+      "DECAGON": Object {
+        "avLst": Object {
+          "vf": 105146,
+        },
+        "displayName": "Decagon",
+        "name": "decagon",
+      },
+      "DIAGONAL_STRIPE": Object {
+        "avLst": Object {
+          "adj": 50000,
+        },
+        "displayName": "Diagonal Stripe",
+        "name": "diagStripe",
+      },
+      "DIAMOND": Object {
+        "avLst": Object {},
+        "displayName": "Diamond",
+        "name": "diamond",
+      },
+      "DODECAGON": Object {
+        "avLst": Object {},
+        "displayName": "Dodecagon",
+        "name": "dodecagon",
+      },
+      "DONUT": Object {
+        "avLst": Object {
+          "adj": 25000,
+        },
+        "displayName": "Donut",
+        "name": "donut",
+      },
+      "DOUBLE_BRACE": Object {
+        "avLst": Object {
+          "adj": 8333,
+        },
+        "displayName": "Double Brace",
+        "name": "bracePair",
+      },
+      "DOUBLE_BRACKET": Object {
+        "avLst": Object {
+          "adj": 16667,
+        },
+        "displayName": "Double Bracket",
+        "name": "bracketPair",
+      },
+      "DOUBLE_WAVE": Object {
+        "avLst": Object {
+          "adj1": 6250,
+          "adj2": 0,
+        },
+        "displayName": "Double Wave",
+        "name": "doubleWave",
+      },
+      "DOWN_ARROW": Object {
+        "avLst": Object {
+          "adj1": 50000,
+          "adj2": 50000,
+        },
+        "displayName": "Down Arrow",
+        "name": "downArrow",
+      },
+      "DOWN_ARROW_CALLOUT": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 25000,
+          "adj3": 25000,
+          "adj4": 64977,
+        },
+        "displayName": "Down Arrow Callout",
+        "name": "downArrowCallout",
+      },
+      "DOWN_RIBBON": Object {
+        "avLst": Object {
+          "adj1": 16667,
+          "adj2": 50000,
+        },
+        "displayName": "Down Ribbon",
+        "name": "ribbon",
+      },
+      "EXPLOSION1": Object {
+        "avLst": Object {},
+        "displayName": "Explosion",
+        "name": "irregularSeal1",
+      },
+      "EXPLOSION2": Object {
+        "avLst": Object {},
+        "displayName": "Explosion",
+        "name": "irregularSeal2",
+      },
+      "FLOWCHART_ALTERNATE_PROCESS": Object {
+        "avLst": Object {},
+        "displayName": "Alternate process",
+        "name": "flowChartAlternateProcess",
+      },
+      "FLOWCHART_CARD": Object {
+        "avLst": Object {},
+        "displayName": "Card",
+        "name": "flowChartPunchedCard",
+      },
+      "FLOWCHART_COLLATE": Object {
+        "avLst": Object {},
+        "displayName": "Collate",
+        "name": "flowChartCollate",
+      },
+      "FLOWCHART_CONNECTOR": Object {
+        "avLst": Object {},
+        "displayName": "Connector",
+        "name": "flowChartConnector",
+      },
+      "FLOWCHART_DATA": Object {
+        "avLst": Object {},
+        "displayName": "Data",
+        "name": "flowChartInputOutput",
+      },
+      "FLOWCHART_DECISION": Object {
+        "avLst": Object {},
+        "displayName": "Decision",
+        "name": "flowChartDecision",
+      },
+      "FLOWCHART_DELAY": Object {
+        "avLst": Object {},
+        "displayName": "Delay",
+        "name": "flowChartDelay",
+      },
+      "FLOWCHART_DIRECT_ACCESS_STORAGE": Object {
+        "avLst": Object {},
+        "displayName": "Direct Access Storage",
+        "name": "flowChartMagneticDrum",
+      },
+      "FLOWCHART_DISPLAY": Object {
+        "avLst": Object {},
+        "displayName": "Display",
+        "name": "flowChartDisplay",
+      },
+      "FLOWCHART_DOCUMENT": Object {
+        "avLst": Object {},
+        "displayName": "Document",
+        "name": "flowChartDocument",
+      },
+      "FLOWCHART_EXTRACT": Object {
+        "avLst": Object {},
+        "displayName": "Extract",
+        "name": "flowChartExtract",
+      },
+      "FLOWCHART_INTERNAL_STORAGE": Object {
+        "avLst": Object {},
+        "displayName": "Internal Storage",
+        "name": "flowChartInternalStorage",
+      },
+      "FLOWCHART_MAGNETIC_DISK": Object {
+        "avLst": Object {},
+        "displayName": "Magnetic Disk",
+        "name": "flowChartMagneticDisk",
+      },
+      "FLOWCHART_MANUAL_INPUT": Object {
+        "avLst": Object {},
+        "displayName": "Manual Input",
+        "name": "flowChartManualInput",
+      },
+      "FLOWCHART_MANUAL_OPERATION": Object {
+        "avLst": Object {},
+        "displayName": "Manual Operation",
+        "name": "flowChartManualOperation",
+      },
+      "FLOWCHART_MERGE": Object {
+        "avLst": Object {},
+        "displayName": "Merge",
+        "name": "flowChartMerge",
+      },
+      "FLOWCHART_MULTIDOCUMENT": Object {
+        "avLst": Object {},
+        "displayName": "Multidocument",
+        "name": "flowChartMultidocument",
+      },
+      "FLOWCHART_OFFLINE_STORAGE": Object {
+        "avLst": Object {},
+        "displayName": "Offline Storage",
+        "name": "flowChartOfflineStorage",
+      },
+      "FLOWCHART_OFFPAGE_CONNECTOR": Object {
+        "avLst": Object {},
+        "displayName": "Off-page Connector",
+        "name": "flowChartOffpageConnector",
+      },
+      "FLOWCHART_OR": Object {
+        "avLst": Object {},
+        "displayName": "Or",
+        "name": "flowChartOr",
+      },
+      "FLOWCHART_PREDEFINED_PROCESS": Object {
+        "avLst": Object {},
+        "displayName": "Predefined Process",
+        "name": "flowChartPredefinedProcess",
+      },
+      "FLOWCHART_PREPARATION": Object {
+        "avLst": Object {},
+        "displayName": "Preparation",
+        "name": "flowChartPreparation",
+      },
+      "FLOWCHART_PROCESS": Object {
+        "avLst": Object {},
+        "displayName": "Process",
+        "name": "flowChartProcess",
+      },
+      "FLOWCHART_PUNCHED_TAPE": Object {
+        "avLst": Object {},
+        "displayName": "Punched Tape",
+        "name": "flowChartPunchedTape",
+      },
+      "FLOWCHART_SEQUENTIAL_ACCESS_STORAGE": Object {
+        "avLst": Object {},
+        "displayName": "Sequential Access Storage",
+        "name": "flowChartMagneticTape",
+      },
+      "FLOWCHART_SORT": Object {
+        "avLst": Object {},
+        "displayName": "Sort",
+        "name": "flowChartSort",
+      },
+      "FLOWCHART_STORED_DATA": Object {
+        "avLst": Object {},
+        "displayName": "Stored Data",
+        "name": "flowChartOnlineStorage",
+      },
+      "FLOWCHART_SUMMING_JUNCTION": Object {
+        "avLst": Object {},
+        "displayName": "Summing Junction",
+        "name": "flowChartSummingJunction",
+      },
+      "FLOWCHART_TERMINATOR": Object {
+        "avLst": Object {},
+        "displayName": "Terminator",
+        "name": "flowChartTerminator",
+      },
+      "FOLDED_CORNER": Object {
+        "avLst": Object {},
+        "displayName": "Folded Corner",
+        "name": "folderCorner",
+      },
+      "FRAME": Object {
+        "avLst": Object {
+          "adj1": 12500,
+        },
+        "displayName": "Frame",
+        "name": "frame",
+      },
+      "FUNNEL": Object {
+        "avLst": Object {},
+        "displayName": "Funnel",
+        "name": "funnel",
+      },
+      "GEAR_6": Object {
+        "avLst": Object {
+          "adj1": 15000,
+          "adj2": 3526,
+        },
+        "displayName": "Gear 6",
+        "name": "gear6",
+      },
+      "GEAR_9": Object {
+        "avLst": Object {
+          "adj1": 10000,
+          "adj2": 1763,
+        },
+        "displayName": "Gear 9",
+        "name": "gear9",
+      },
+      "HALF_FRAME": Object {
+        "avLst": Object {
+          "adj1": 33333,
+          "adj2": 33333,
+        },
+        "displayName": "Half Frame",
+        "name": "halfFrame",
+      },
+      "HEART": Object {
+        "avLst": Object {},
+        "displayName": "Heart",
+        "name": "heart",
+      },
+      "HEPTAGON": Object {
+        "avLst": Object {
+          "hf": 102572,
+          "vf": 105210,
+        },
+        "displayName": "Heptagon",
+        "name": "heptagon",
+      },
+      "HEXAGON": Object {
+        "avLst": Object {
+          "adj": 25000,
+          "vf": 115470,
+        },
+        "displayName": "Hexagon",
+        "name": "hexagon",
+      },
+      "HORIZONTAL_SCROLL": Object {
+        "avLst": Object {
+          "adj": 12500,
+        },
+        "displayName": "Horizontal Scroll",
+        "name": "horizontalScroll",
+      },
+      "ISOSCELES_TRIANGLE": Object {
+        "avLst": Object {
+          "adj": 50000,
+        },
+        "displayName": "Isosceles Triangle",
+        "name": "triangle",
+      },
+      "LEFT_ARROW": Object {
+        "avLst": Object {
+          "adj1": 50000,
+          "adj2": 50000,
+        },
+        "displayName": "Left Arrow",
+        "name": "leftArrow",
+      },
+      "LEFT_ARROW_CALLOUT": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 25000,
+          "adj3": 25000,
+          "adj4": 64977,
+        },
+        "displayName": "Left Arrow Callout",
+        "name": "leftArrowCallout",
+      },
+      "LEFT_BRACE": Object {
+        "avLst": Object {
+          "adj1": 8333,
+          "adj2": 50000,
+        },
+        "displayName": "Left Brace",
+        "name": "leftBrace",
+      },
+      "LEFT_BRACKET": Object {
+        "avLst": Object {
+          "adj": 8333,
+        },
+        "displayName": "Left Bracket",
+        "name": "leftBracket",
+      },
+      "LEFT_CIRCULAR_ARROW": Object {
+        "avLst": Object {
+          "adj1": 12500,
+          "adj2": -1142319,
+          "adj3": 1142319,
+          "adj4": 10800000,
+          "adj5": 12500,
+        },
+        "displayName": "Left Circular Arrow",
+        "name": "leftCircularArrow",
+      },
+      "LEFT_RIGHT_ARROW": Object {
+        "avLst": Object {
+          "adj1": 50000,
+          "adj2": 50000,
+        },
+        "displayName": "Left-Right Arrow",
+        "name": "leftRightArrow",
+      },
+      "LEFT_RIGHT_ARROW_CALLOUT": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 25000,
+          "adj3": 25000,
+          "adj4": 48123,
+        },
+        "displayName": "Left-Right Arrow Callout",
+        "name": "leftRightArrowCallout",
+      },
+      "LEFT_RIGHT_CIRCULAR_ARROW": Object {
+        "avLst": Object {
+          "adj1": 12500,
+          "adj2": 1142319,
+          "adj3": 20457681,
+          "adj4": 11942319,
+          "adj5": 12500,
+        },
+        "displayName": "Left Right Circular Arrow",
+        "name": "leftRightCircularArrow",
+      },
+      "LEFT_RIGHT_RIBBON": Object {
+        "avLst": Object {
+          "adj1": 50000,
+          "adj2": 50000,
+          "adj3": 16667,
+        },
+        "displayName": "Left Right Ribbon",
+        "name": "leftRightRibbon",
+      },
+      "LEFT_RIGHT_UP_ARROW": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 25000,
+          "adj3": 25000,
+        },
+        "displayName": "Left-Right-Up Arrow",
+        "name": "leftRightUpArrow",
+      },
+      "LEFT_UP_ARROW": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 25000,
+          "adj3": 25000,
+        },
+        "displayName": "Left-Up Arrow",
+        "name": "leftUpArrow",
+      },
+      "LIGHTNING_BOLT": Object {
+        "avLst": Object {},
+        "displayName": "Lightning Bolt",
+        "name": "lightningBolt",
+      },
+      "LINE": Object {
+        "avLst": Object {},
+        "displayName": "Line",
+        "name": "line",
+      },
+      "LINE_CALLOUT_1": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 112500,
+          "adj4": -38333,
+        },
+        "displayName": "Line Callout 1",
+        "name": "borderCallout1",
+      },
+      "LINE_CALLOUT_1_ACCENT_BAR": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 112500,
+          "adj4": -38333,
+        },
+        "displayName": "Line Callout 1 {Accent Bar}",
+        "name": "accentCallout1",
+      },
+      "LINE_CALLOUT_1_BORDER_AND_ACCENT_BAR": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 112500,
+          "adj4": -38333,
+        },
+        "displayName": "Line Callout 1 {Border and Accent Bar}",
+        "name": "accentBorderCallout1",
+      },
+      "LINE_CALLOUT_1_NO_BORDER": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 112500,
+          "adj4": -38333,
+        },
+        "displayName": "Line Callout 1 {No Border}",
+        "name": "callout1",
+      },
+      "LINE_CALLOUT_2": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 18750,
+          "adj4": -16667,
+          "adj5": 112500,
+          "adj6": -46667,
+        },
+        "displayName": "Line Callout 2",
+        "name": "borderCallout2",
+      },
+      "LINE_CALLOUT_2_ACCENT_BAR": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 18750,
+          "adj4": -16667,
+          "adj5": 112500,
+          "adj6": -46667,
+        },
+        "displayName": "Line Callout 2 {Accent Bar}",
+        "name": "accentCallout2",
+      },
+      "LINE_CALLOUT_2_BORDER_AND_ACCENT_BAR": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 18750,
+          "adj4": -16667,
+          "adj5": 112500,
+          "adj6": -46667,
+        },
+        "displayName": "Line Callout 2 {Border and Accent Bar}",
+        "name": "accentBorderCallout2",
+      },
+      "LINE_CALLOUT_2_NO_BORDER": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 18750,
+          "adj4": -16667,
+          "adj5": 112500,
+          "adj6": -46667,
+        },
+        "displayName": "Line Callout 2 {No Border}",
+        "name": "callout2",
+      },
+      "LINE_CALLOUT_3": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 18750,
+          "adj4": -16667,
+          "adj5": 100000,
+          "adj6": -16667,
+          "adj7": 112963,
+          "adj8": -8333,
+        },
+        "displayName": "Line Callout 3",
+        "name": "borderCallout3",
+      },
+      "LINE_CALLOUT_3_ACCENT_BAR": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 18750,
+          "adj4": -16667,
+          "adj5": 100000,
+          "adj6": -16667,
+          "adj7": 112963,
+          "adj8": -8333,
+        },
+        "displayName": "Line Callout 3 {Accent Bar}",
+        "name": "accentCallout3",
+      },
+      "LINE_CALLOUT_3_BORDER_AND_ACCENT_BAR": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 18750,
+          "adj4": -16667,
+          "adj5": 100000,
+          "adj6": -16667,
+          "adj7": 112963,
+          "adj8": -8333,
+        },
+        "displayName": "Line Callout 3 {Border and Accent Bar}",
+        "name": "accentBorderCallout3",
+      },
+      "LINE_CALLOUT_3_NO_BORDER": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 18750,
+          "adj4": -16667,
+          "adj5": 100000,
+          "adj6": -16667,
+          "adj7": 112963,
+          "adj8": -8333,
+        },
+        "displayName": "Line Callout 3 {No Border}",
+        "name": "callout3",
+      },
+      "LINE_CALLOUT_4": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 18750,
+          "adj4": -16667,
+          "adj5": 100000,
+          "adj6": -16667,
+          "adj7": 112963,
+          "adj8": -8333,
+        },
+        "displayName": "Line Callout 3",
+        "name": "borderCallout3",
+      },
+      "LINE_CALLOUT_4_ACCENT_BAR": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 18750,
+          "adj4": -16667,
+          "adj5": 100000,
+          "adj6": -16667,
+          "adj7": 112963,
+          "adj8": -8333,
+        },
+        "displayName": "Line Callout 3 {Accent Bar}",
+        "name": "accentCallout3",
+      },
+      "LINE_CALLOUT_4_BORDER_AND_ACCENT_BAR": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 18750,
+          "adj4": -16667,
+          "adj5": 100000,
+          "adj6": -16667,
+          "adj7": 112963,
+          "adj8": -8333,
+        },
+        "displayName": "Line Callout 3 {Border and Accent Bar}",
+        "name": "accentBorderCallout3",
+      },
+      "LINE_CALLOUT_4_NO_BORDER": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 18750,
+          "adj4": -16667,
+          "adj5": 100000,
+          "adj6": -16667,
+          "adj7": 112963,
+          "adj8": -8333,
+        },
+        "displayName": "Line Callout 3 {No Border}",
+        "name": "callout3",
+      },
+      "LINE_INVERSE": Object {
+        "avLst": Object {},
+        "displayName": "Straight Connector",
+        "name": "lineInv",
+      },
+      "MATH_DIVIDE": Object {
+        "avLst": Object {
+          "adj1": 23520,
+          "adj2": 5880,
+          "adj3": 11760,
+        },
+        "displayName": "Division",
+        "name": "mathDivide",
+      },
+      "MATH_EQUAL": Object {
+        "avLst": Object {
+          "adj1": 23520,
+          "adj2": 11760,
+        },
+        "displayName": "Equal",
+        "name": "mathEqual",
+      },
+      "MATH_MINUS": Object {
+        "avLst": Object {
+          "adj1": 23520,
+        },
+        "displayName": "Minus",
+        "name": "mathMinus",
+      },
+      "MATH_MULTIPLY": Object {
+        "avLst": Object {
+          "adj1": 23520,
+        },
+        "displayName": "Multiply",
+        "name": "mathMultiply",
+      },
+      "MATH_NOT_EQUAL": Object {
+        "avLst": Object {
+          "adj1": 23520,
+          "adj2": 6600000,
+          "adj3": 11760,
+        },
+        "displayName": "Not Equal",
+        "name": "mathNotEqual",
+      },
+      "MATH_PLUS": Object {
+        "avLst": Object {
+          "adj1": 23520,
+        },
+        "displayName": "Plus",
+        "name": "mathPlus",
+      },
+      "MOON": Object {
+        "avLst": Object {
+          "adj": 50000,
+        },
+        "displayName": "Moon",
+        "name": "moon",
+      },
+      "NON_ISOSCELES_TRAPEZOID": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 25000,
+        },
+        "displayName": "Non-isosceles Trapezoid",
+        "name": "nonIsoscelesTrapezoid",
+      },
+      "NOTCHED_RIGHT_ARROW": Object {
+        "avLst": Object {
+          "adj1": 50000,
+          "adj2": 50000,
+        },
+        "displayName": "Notched Right Arrow",
+        "name": "notchedRightArrow",
+      },
+      "NO_SYMBOL": Object {
+        "avLst": Object {
+          "adj": 18750,
+        },
+        "displayName": "\\"No\\" symbol",
+        "name": "noSmoking",
+      },
+      "OCTAGON": Object {
+        "avLst": Object {
+          "adj": 29289,
+        },
+        "displayName": "Octagon",
+        "name": "octagon",
+      },
+      "OVAL": Object {
+        "avLst": Object {},
+        "displayName": "Oval",
+        "name": "ellipse",
+      },
+      "OVAL_CALLOUT": Object {
+        "avLst": Object {
+          "adj1": -20833,
+          "adj2": 62500,
+        },
+        "displayName": "Oval Callout",
+        "name": "wedgeEllipseCallout",
+      },
+      "PARALLELOGRAM": Object {
+        "avLst": Object {
+          "adj": 25000,
+        },
+        "displayName": "Parallelogram",
+        "name": "parallelogram",
+      },
+      "PENTAGON": Object {
+        "avLst": Object {
+          "adj": 50000,
+        },
+        "displayName": "Pentagon",
+        "name": "homePlate",
+      },
+      "PIE": Object {
+        "avLst": Object {
+          "adj1": 0,
+          "adj2": 16200000,
+        },
+        "displayName": "Pie",
+        "name": "pie",
+      },
+      "PIE_WEDGE": Object {
+        "avLst": Object {},
+        "displayName": "Pie",
+        "name": "pieWedge",
+      },
+      "PLAQUE": Object {
+        "avLst": Object {
+          "adj": 16667,
+        },
+        "displayName": "Plaque",
+        "name": "plaque",
+      },
+      "PLAQUE_TABS": Object {
+        "avLst": Object {},
+        "displayName": "Plaque Tabs",
+        "name": "plaqueTabs",
+      },
+      "QUAD_ARROW": Object {
+        "avLst": Object {
+          "adj1": 22500,
+          "adj2": 22500,
+          "adj3": 22500,
+        },
+        "displayName": "Quad Arrow",
+        "name": "quadArrow",
+      },
+      "QUAD_ARROW_CALLOUT": Object {
+        "avLst": Object {
+          "adj1": 18515,
+          "adj2": 18515,
+          "adj3": 18515,
+          "adj4": 48123,
+        },
+        "displayName": "Quad Arrow Callout",
+        "name": "quadArrowCallout",
+      },
+      "RECTANGLE": Object {
+        "avLst": Object {},
+        "displayName": "Rectangle",
+        "name": "rect",
+      },
+      "RECTANGULAR_CALLOUT": Object {
+        "avLst": Object {
+          "adj1": -20833,
+          "adj2": 62500,
+        },
+        "displayName": "Rectangular Callout",
+        "name": "wedgeRectCallout",
+      },
+      "REGULAR_PENTAGON": Object {
+        "avLst": Object {
+          "hf": 105146,
+          "vf": 110557,
+        },
+        "displayName": "Regular Pentagon",
+        "name": "pentagon",
+      },
+      "RIGHT_ARROW": Object {
+        "avLst": Object {
+          "adj1": 50000,
+          "adj2": 50000,
+        },
+        "displayName": "Right Arrow",
+        "name": "rightArrow",
+      },
+      "RIGHT_ARROW_CALLOUT": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 25000,
+          "adj3": 25000,
+          "adj4": 64977,
+        },
+        "displayName": "Right Arrow Callout",
+        "name": "rightArrowCallout",
+      },
+      "RIGHT_BRACE": Object {
+        "avLst": Object {
+          "adj1": 8333,
+          "adj2": 50000,
+        },
+        "displayName": "Right Brace",
+        "name": "rightBrace",
+      },
+      "RIGHT_BRACKET": Object {
+        "avLst": Object {
+          "adj": 8333,
+        },
+        "displayName": "Right Bracket",
+        "name": "rightBracket",
+      },
+      "RIGHT_TRIANGLE": Object {
+        "avLst": Object {},
+        "displayName": "Right Triangle",
+        "name": "rtTriangle",
+      },
+      "ROUNDED_RECTANGLE": Object {
+        "avLst": Object {
+          "adj": 16667,
+        },
+        "displayName": "Rounded Rectangle",
+        "name": "roundRect",
+      },
+      "ROUNDED_RECTANGULAR_CALLOUT": Object {
+        "avLst": Object {
+          "adj1": -20833,
+          "adj2": 62500,
+          "adj3": 16667,
+        },
+        "displayName": "Rounded Rectangular Callout",
+        "name": "wedgeRoundRectCallout",
+      },
+      "ROUND_1_RECTANGLE": Object {
+        "avLst": Object {
+          "adj": 16667,
+        },
+        "displayName": "Round Single Corner Rectangle",
+        "name": "round1Rect",
+      },
+      "ROUND_2_DIAG_RECTANGLE": Object {
+        "avLst": Object {
+          "adj1": 16667,
+          "adj2": 0,
+        },
+        "displayName": "Round Diagonal Corner Rectangle",
+        "name": "round2DiagRect",
+      },
+      "ROUND_2_SAME_RECTANGLE": Object {
+        "avLst": Object {
+          "adj1": 16667,
+          "adj2": 0,
+        },
+        "displayName": "Round Same Side Corner Rectangle",
+        "name": "round2SameRect",
+      },
+      "SMILEY_FACE": Object {
+        "avLst": Object {
+          "adj": 4653,
+        },
+        "displayName": "Smiley Face",
+        "name": "smileyFace",
+      },
+      "SNIP_1_RECTANGLE": Object {
+        "avLst": Object {
+          "adj": 16667,
+        },
+        "displayName": "Snip Single Corner Rectangle",
+        "name": "snip1Rect",
+      },
+      "SNIP_2_DIAG_RECTANGLE": Object {
+        "avLst": Object {
+          "adj1": 0,
+          "adj2": 16667,
+        },
+        "displayName": "Snip Diagonal Corner Rectangle",
+        "name": "snip2DiagRect",
+      },
+      "SNIP_2_SAME_RECTANGLE": Object {
+        "avLst": Object {
+          "adj1": 16667,
+          "adj2": 0,
+        },
+        "displayName": "Snip Same Side Corner Rectangle",
+        "name": "snip2SameRect",
+      },
+      "SNIP_ROUND_RECTANGLE": Object {
+        "avLst": Object {
+          "adj1": 16667,
+          "adj2": 16667,
+        },
+        "displayName": "Snip and Round Single Corner Rectangle",
+        "name": "snipRoundRect",
+      },
+      "SQUARE_TABS": Object {
+        "avLst": Object {},
+        "displayName": "Square Tabs",
+        "name": "squareTabs",
+      },
+      "STAR_10_POINT": Object {
+        "avLst": Object {
+          "adj": 42533,
+          "hf": 105146,
+        },
+        "displayName": "10-Point Star",
+        "name": "star10",
+      },
+      "STAR_12_POINT": Object {
+        "avLst": Object {
+          "adj": 37500,
+        },
+        "displayName": "12-Point Star",
+        "name": "star12",
+      },
+      "STAR_16_POINT": Object {
+        "avLst": Object {
+          "adj": 37500,
+        },
+        "displayName": "16-Point Star",
+        "name": "star16",
+      },
+      "STAR_24_POINT": Object {
+        "avLst": Object {
+          "adj": 37500,
+        },
+        "displayName": "24-Point Star",
+        "name": "star24",
+      },
+      "STAR_32_POINT": Object {
+        "avLst": Object {
+          "adj": 37500,
+        },
+        "displayName": "32-Point Star",
+        "name": "star32",
+      },
+      "STAR_4_POINT": Object {
+        "avLst": Object {
+          "adj": 12500,
+        },
+        "displayName": "4-Point Star",
+        "name": "star4",
+      },
+      "STAR_5_POINT": Object {
+        "avLst": Object {
+          "adj": 19098,
+          "hf": 105146,
+          "vf": 110557,
+        },
+        "displayName": "5-Point Star",
+        "name": "star5",
+      },
+      "STAR_6_POINT": Object {
+        "avLst": Object {
+          "adj": 28868,
+          "hf": 115470,
+        },
+        "displayName": "6-Point Star",
+        "name": "star6",
+      },
+      "STAR_7_POINT": Object {
+        "avLst": Object {
+          "adj": 34601,
+          "hf": 102572,
+          "vf": 105210,
+        },
+        "displayName": "7-Point Star",
+        "name": "star7",
+      },
+      "STAR_8_POINT": Object {
+        "avLst": Object {
+          "adj": 37500,
+        },
+        "displayName": "8-Point Star",
+        "name": "star8",
+      },
+      "STRIPED_RIGHT_ARROW": Object {
+        "avLst": Object {
+          "adj1": 50000,
+          "adj2": 50000,
+        },
+        "displayName": "Striped Right Arrow",
+        "name": "stripedRightArrow",
+      },
+      "SUN": Object {
+        "avLst": Object {
+          "adj": 25000,
+        },
+        "displayName": "Sun",
+        "name": "sun",
+      },
+      "SWOOSH_ARROW": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 16667,
+        },
+        "displayName": "Swoosh Arrow",
+        "name": "swooshArrow",
+      },
+      "TEAR": Object {
+        "avLst": Object {
+          "adj": 100000,
+        },
+        "displayName": "Teardrop",
+        "name": "teardrop",
+      },
+      "TRAPEZOID": Object {
+        "avLst": Object {
+          "adj": 25000,
+        },
+        "displayName": "Trapezoid",
+        "name": "trapezoid",
+      },
+      "UP_ARROW": Object {
+        "avLst": Object {},
+        "displayName": "Up Arrow",
+        "name": "upArrow",
+      },
+      "UP_ARROW_CALLOUT": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 25000,
+          "adj3": 25000,
+          "adj4": 64977,
+        },
+        "displayName": "Up Arrow Callout",
+        "name": "upArrowCallout",
+      },
+      "UP_DOWN_ARROW": Object {
+        "avLst": Object {
+          "adj1": 50000,
+          "adj2": 50000,
+        },
+        "displayName": "Up-Down Arrow",
+        "name": "upDownArrow",
+      },
+      "UP_DOWN_ARROW_CALLOUT": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 25000,
+          "adj3": 25000,
+          "adj4": 48123,
+        },
+        "displayName": "Up-Down Arrow Callout",
+        "name": "upDownArrowCallout",
+      },
+      "UP_RIBBON": Object {
+        "avLst": Object {
+          "adj1": 16667,
+          "adj2": 50000,
+        },
+        "displayName": "Up Ribbon",
+        "name": "ribbon2",
+      },
+      "U_TURN_ARROW": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 25000,
+          "adj3": 25000,
+          "adj4": 43750,
+          "adj5": 75000,
+        },
+        "displayName": "U-Turn Arrow",
+        "name": "uturnArrow",
+      },
+      "VERTICAL_SCROLL": Object {
+        "avLst": Object {
+          "adj": 12500,
+        },
+        "displayName": "Vertical Scroll",
+        "name": "verticalScroll",
+      },
+      "WAVE": Object {
+        "avLst": Object {
+          "adj1": 12500,
+          "adj2": 0,
+        },
+        "displayName": "Wave",
+        "name": "wave",
+      },
+    },
+    "slideMasterRels": Array [
+      Object {
+        "target": "../slideLayouts/slideLayout1.xml",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+      },
+      Object {
+        "target": "../theme/theme1.xml",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme",
+      },
+    ],
     "startNewDoc": [Function],
     "theme": null,
   },
@@ -710,708 +1435,1433 @@ WordDocument {
 `;
 
 exports[`should render the children 1`] = `
-WordDocument {
-  "doc": officegen {
+PPTXDocument {
+  "pptx": officegen {
     "_events": Object {
       "afterGen": [Function],
       "beforeGen": [Function],
-      "clearData": [Function],
       "clearDoc": [Function],
       "clearDocType": [Function],
     },
-    "_eventsCount": 5,
+    "_eventsCount": 4,
     "_maxListeners": undefined,
-    "addPageBreak": [Function],
     "addResourceToParse": [Function],
-    "cbMakeDocxDocument": [Function],
-    "createByJson": [Function],
-    "createJson": [Function],
-    "createListOfDots": [Function],
-    "createListOfNumbers": [Function],
-    "createP": [Function],
-    "createTable": [Function],
-    "data": Array [
-      MakeDocxP {
-        "data": Array [
-          Object {
-            "ext_data": undefined,
-            "options": Object {},
-            "text": "Hello ! This is a test for rendering the children!",
-          },
-        ],
-        "docType": "docx",
-        "extraSettings": Object {},
-        "filesList": Array [
-          Object {
-            "clear": "type",
-            "ext": "rels",
-            "type": "application/vnd.openxmlformats-package.relationships+xml",
-          },
-          Object {
-            "clear": "type",
-            "ext": "xml",
-            "type": "application/xml",
-          },
-          Object {
-            "clear": "type",
-            "ext": "jpeg",
-            "type": "image/jpeg",
-          },
-          Object {
-            "clear": "type",
-            "ext": "png",
-            "type": "image/png",
-          },
-          Object {
-            "clear": "type",
-            "ext": "gif",
-            "type": "image/gif",
-          },
-          Object {
-            "clear": "type",
-            "name": "/docProps/app.xml",
-            "type": "application/vnd.openxmlformats-officedocument.extended-properties+xml",
-          },
-          Object {
-            "clear": "type",
-            "name": "/word/theme/theme1.xml",
-            "type": "application/vnd.openxmlformats-officedocument.theme+xml",
-          },
-          Object {
-            "clear": "type",
-            "name": "/docProps/core.xml",
-            "type": "application/vnd.openxmlformats-package.core-properties+xml",
-          },
-          Object {
-            "clear": "type",
-            "name": "/word/settings.xml",
-            "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml",
-          },
-          Object {
-            "clear": "type",
-            "name": "/word/fontTable.xml",
-            "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml",
-          },
-          Object {
-            "clear": "type",
-            "name": "/word/webSettings.xml",
-            "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.webSettings+xml",
-          },
-          Object {
-            "clear": "type",
-            "name": "/word/styles.xml",
-            "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml",
-          },
-          Object {
-            "clear": "type",
-            "name": "/word/document.xml",
-            "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml",
-          },
-          Object {
-            "clear": "type",
-            "name": "/word/numbering.xml",
-            "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml",
-          },
-        ],
-        "genPrivate": Object {
-          "features": Object {
-            "outputType": "zip",
-            "type": Object {
-              "docx": MakeDocPluginapi {
-                "callbacksList": Object {
-                  "beforeGen": Array [
-                    [Function],
-                  ],
-                  "makeDocApi": Array [
-                    [Function],
-                  ],
-                },
-                "defValuesFunc": [Function],
-                "docType": "docx",
-                "genPrivate": [Circular],
-                "genobj": [Circular],
-                "ogPluginsApi": Object {
-                  "intAddAnyResourceToParse": [Function],
-                  "type": Object {
-                    "msoffice": Object {
-                      "addInfoType": [Function],
-                      "cbMakeMsOfficeBasicXml": [Function],
-                      "cbMakeRels": [Function],
-                      "makeOfficeGenerator": [Function],
-                      "makeUniqueID": [Function],
-                    },
-                  },
-                },
-                "plugsList": Array [
-                  MakeHeadfootPlugin {
-                    "docxData": Object {},
-                    "filesList": Array [
-                      Object {
-                        "clear": "type",
-                        "ext": "rels",
-                        "type": "application/vnd.openxmlformats-package.relationships+xml",
-                      },
-                      Object {
-                        "clear": "type",
-                        "ext": "xml",
-                        "type": "application/xml",
-                      },
-                      Object {
-                        "clear": "type",
-                        "ext": "jpeg",
-                        "type": "image/jpeg",
-                      },
-                      Object {
-                        "clear": "type",
-                        "ext": "png",
-                        "type": "image/png",
-                      },
-                      Object {
-                        "clear": "type",
-                        "ext": "gif",
-                        "type": "image/gif",
-                      },
-                      Object {
-                        "clear": "type",
-                        "name": "/docProps/app.xml",
-                        "type": "application/vnd.openxmlformats-officedocument.extended-properties+xml",
-                      },
-                      Object {
-                        "clear": "type",
-                        "name": "/word/theme/theme1.xml",
-                        "type": "application/vnd.openxmlformats-officedocument.theme+xml",
-                      },
-                      Object {
-                        "clear": "type",
-                        "name": "/docProps/core.xml",
-                        "type": "application/vnd.openxmlformats-package.core-properties+xml",
-                      },
-                      Object {
-                        "clear": "type",
-                        "name": "/word/settings.xml",
-                        "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml",
-                      },
-                      Object {
-                        "clear": "type",
-                        "name": "/word/fontTable.xml",
-                        "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml",
-                      },
-                      Object {
-                        "clear": "type",
-                        "name": "/word/webSettings.xml",
-                        "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.webSettings+xml",
-                      },
-                      Object {
-                        "clear": "type",
-                        "name": "/word/styles.xml",
-                        "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml",
-                      },
-                      Object {
-                        "clear": "type",
-                        "name": "/word/document.xml",
-                        "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml",
-                      },
-                      Object {
-                        "clear": "type",
-                        "name": "/word/numbering.xml",
-                        "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml",
-                      },
-                    ],
-                    "mainPath": "word",
-                    "mainPathFile": "document",
-                    "msPluginsApi": Object {
-                      "addInfoType": [Function],
-                      "cbMakeMsOfficeBasicXml": [Function],
-                      "cbMakeRels": [Function],
-                      "makeOfficeGenerator": [Function],
-                      "makeUniqueID": [Function],
-                    },
-                    "ogPluginsApi": Object {
-                      "intAddAnyResourceToParse": [Function],
-                      "type": Object {
-                        "msoffice": Object {
-                          "addInfoType": [Function],
-                          "cbMakeMsOfficeBasicXml": [Function],
-                          "cbMakeRels": [Function],
-                          "makeOfficeGenerator": [Function],
-                          "makeUniqueID": [Function],
-                        },
-                      },
-                    },
-                    "pluginsman": [Circular],
-                    "relsApp": Array [
-                      Object {
-                        "clear": "type",
-                        "target": "styles.xml",
-                        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles",
-                      },
-                      Object {
-                        "clear": "type",
-                        "target": "settings.xml",
-                        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings",
-                      },
-                      Object {
-                        "clear": "type",
-                        "target": "webSettings.xml",
-                        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings",
-                      },
-                      Object {
-                        "clear": "type",
-                        "target": "fontTable.xml",
-                        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable",
-                      },
-                      Object {
-                        "clear": "type",
-                        "target": "theme/theme1.xml",
-                        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme",
-                      },
-                      Object {
-                        "clear": "type",
-                        "target": "numbering.xml",
-                        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering",
-                      },
-                    ],
-                    "relsMain": Array [
-                      Object {
-                        "clear": "type",
-                        "target": "docProps/app.xml",
-                        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties",
-                      },
-                      Object {
-                        "clear": "type",
-                        "target": "docProps/core.xml",
-                        "type": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties",
-                      },
-                      Object {
-                        "clear": "type",
-                        "target": "word/document.xml",
-                        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument",
-                      },
-                    ],
-                    "srcFilesList": Array [],
-                  },
-                ],
-              },
-              "msoffice": Object {
-                "main_path": "word",
-                "main_path_file": "document",
-              },
-            },
-          },
-          "length": 0,
-          "pages": Array [],
-          "plugs": Object {
-            "intAddAnyResourceToParse": [Function],
-            "type": Object {
-              "msoffice": Object {
-                "addInfoType": [Function],
-                "cbMakeMsOfficeBasicXml": [Function],
-                "cbMakeRels": [Function],
-                "makeOfficeGenerator": [Function],
-                "makeUniqueID": [Function],
-              },
-            },
-          },
-          "resources": Array [
-            Object {
-              "callback": [Function],
-              "data": Array [
-                Object {
-                  "clear": "type",
-                  "target": "docProps/app.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties",
-                },
-                Object {
-                  "clear": "type",
-                  "target": "docProps/core.xml",
-                  "type": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties",
-                },
-                Object {
-                  "clear": "type",
-                  "target": "word/document.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument",
-                },
-              ],
-              "is_perment": true,
-              "name": "_rels\\\\.rels",
-              "removed_after_used": false,
-              "type": "buffer",
-            },
-            Object {
-              "callback": [Function],
-              "data": null,
-              "is_perment": true,
-              "name": "[Content_Types].xml",
-              "removed_after_used": false,
-              "type": "buffer",
-            },
-            Object {
-              "callback": [Function],
-              "data": null,
-              "is_perment": true,
-              "name": "docProps\\\\core.xml",
-              "removed_after_used": false,
-              "type": "buffer",
-            },
-            Object {
-              "callback": [Function],
-              "data": null,
-              "is_perment": true,
-              "name": "word\\\\theme\\\\theme1.xml",
-              "removed_after_used": false,
-              "type": "buffer",
-            },
-            Object {
-              "callback": [Function],
-              "data": null,
-              "is_perment": true,
-              "name": "docProps\\\\app.xml",
-              "removed_after_used": false,
-              "type": "buffer",
-            },
-            Object {
-              "callback": [Function],
-              "data": null,
-              "is_perment": true,
-              "name": "word\\\\fontTable.xml",
-              "removed_after_used": false,
-              "type": "buffer",
-            },
-            Object {
-              "callback": [Function],
-              "data": null,
-              "is_perment": true,
-              "name": "word\\\\settings.xml",
-              "removed_after_used": false,
-              "type": "buffer",
-            },
-            Object {
-              "callback": [Function],
-              "data": null,
-              "is_perment": true,
-              "name": "word\\\\webSettings.xml",
-              "removed_after_used": false,
-              "type": "buffer",
-            },
-            Object {
-              "callback": [Function],
-              "data": null,
-              "is_perment": true,
-              "name": "word\\\\styles.xml",
-              "removed_after_used": false,
-              "type": "buffer",
-            },
-            Object {
-              "callback": [Function],
-              "data": Object {
-                "data": [Circular],
-                "docEndExtra": "</w:body>",
-                "docStartExtra": "<w:body>",
-                "docType": "document",
-              },
-              "is_perment": true,
-              "name": "word\\\\document.xml",
-              "removed_after_used": false,
-              "type": "buffer",
-            },
-            Object {
-              "callback": [Function],
-              "data": null,
-              "is_perment": true,
-              "name": "word\\\\numbering.xml",
-              "removed_after_used": false,
-              "type": "buffer",
-            },
-            Object {
-              "callback": [Function],
-              "data": Array [
-                Object {
-                  "clear": "type",
-                  "target": "styles.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles",
-                },
-                Object {
-                  "clear": "type",
-                  "target": "settings.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings",
-                },
-                Object {
-                  "clear": "type",
-                  "target": "webSettings.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings",
-                },
-                Object {
-                  "clear": "type",
-                  "target": "fontTable.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable",
-                },
-                Object {
-                  "clear": "type",
-                  "target": "theme/theme1.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme",
-                },
-                Object {
-                  "clear": "type",
-                  "target": "numbering.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering",
-                },
-              ],
-              "is_perment": true,
-              "name": "word\\\\_rels\\\\document.xml.rels",
-              "removed_after_used": false,
-              "type": "buffer",
-            },
-          ],
-          "type": Object {
-            "docx": Object {},
-            "msoffice": Object {
-              "files_list": Array [
-                Object {
-                  "clear": "type",
-                  "ext": "rels",
-                  "type": "application/vnd.openxmlformats-package.relationships+xml",
-                },
-                Object {
-                  "clear": "type",
-                  "ext": "xml",
-                  "type": "application/xml",
-                },
-                Object {
-                  "clear": "type",
-                  "ext": "jpeg",
-                  "type": "image/jpeg",
-                },
-                Object {
-                  "clear": "type",
-                  "ext": "png",
-                  "type": "image/png",
-                },
-                Object {
-                  "clear": "type",
-                  "ext": "gif",
-                  "type": "image/gif",
-                },
-                Object {
-                  "clear": "type",
-                  "name": "/docProps/app.xml",
-                  "type": "application/vnd.openxmlformats-officedocument.extended-properties+xml",
-                },
-                Object {
-                  "clear": "type",
-                  "name": "/word/theme/theme1.xml",
-                  "type": "application/vnd.openxmlformats-officedocument.theme+xml",
-                },
-                Object {
-                  "clear": "type",
-                  "name": "/docProps/core.xml",
-                  "type": "application/vnd.openxmlformats-package.core-properties+xml",
-                },
-                Object {
-                  "clear": "type",
-                  "name": "/word/settings.xml",
-                  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml",
-                },
-                Object {
-                  "clear": "type",
-                  "name": "/word/fontTable.xml",
-                  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml",
-                },
-                Object {
-                  "clear": "type",
-                  "name": "/word/webSettings.xml",
-                  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.webSettings+xml",
-                },
-                Object {
-                  "clear": "type",
-                  "name": "/word/styles.xml",
-                  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml",
-                },
-                Object {
-                  "clear": "type",
-                  "name": "/word/document.xml",
-                  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml",
-                },
-                Object {
-                  "clear": "type",
-                  "name": "/word/numbering.xml",
-                  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml",
-                },
-              ],
-              "rels_app": Array [
-                Object {
-                  "clear": "type",
-                  "target": "styles.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles",
-                },
-                Object {
-                  "clear": "type",
-                  "target": "settings.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings",
-                },
-                Object {
-                  "clear": "type",
-                  "target": "webSettings.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings",
-                },
-                Object {
-                  "clear": "type",
-                  "target": "fontTable.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable",
-                },
-                Object {
-                  "clear": "type",
-                  "target": "theme/theme1.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme",
-                },
-                Object {
-                  "clear": "type",
-                  "target": "numbering.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering",
-                },
-              ],
-              "rels_main": Array [
-                Object {
-                  "clear": "type",
-                  "target": "docProps/app.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties",
-                },
-                Object {
-                  "clear": "type",
-                  "target": "docProps/core.xml",
-                  "type": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties",
-                },
-                Object {
-                  "clear": "type",
-                  "target": "word/document.xml",
-                  "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument",
-                },
-              ],
-              "src_files_list": Array [],
-            },
-          },
-        },
-        "genobj": [Circular],
-        "mainPath": "word",
-        "mainPathFile": "document",
-        "msPluginsApi": Object {
-          "addInfoType": [Function],
-          "cbMakeMsOfficeBasicXml": [Function],
-          "cbMakeRels": [Function],
-          "makeOfficeGenerator": [Function],
-          "makeUniqueID": [Function],
-        },
-        "ogPluginsApi": Object {
-          "intAddAnyResourceToParse": [Function],
-          "type": Object {
-            "msoffice": Object {
-              "addInfoType": [Function],
-              "cbMakeMsOfficeBasicXml": [Function],
-              "cbMakeRels": [Function],
-              "makeOfficeGenerator": [Function],
-              "makeUniqueID": [Function],
-            },
-          },
-        },
-        "options": Object {},
-        "relsApp": Array [
-          Object {
-            "clear": "type",
-            "target": "styles.xml",
-            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles",
-          },
-          Object {
-            "clear": "type",
-            "target": "settings.xml",
-            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings",
-          },
-          Object {
-            "clear": "type",
-            "target": "webSettings.xml",
-            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings",
-          },
-          Object {
-            "clear": "type",
-            "target": "fontTable.xml",
-            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable",
-          },
-          Object {
-            "clear": "type",
-            "target": "theme/theme1.xml",
-            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme",
-          },
-          Object {
-            "clear": "type",
-            "target": "numbering.xml",
-            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering",
-          },
-        ],
-        "relsMain": Array [
-          Object {
-            "clear": "type",
-            "target": "docProps/app.xml",
-            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties",
-          },
-          Object {
-            "clear": "type",
-            "target": "docProps/core.xml",
-            "type": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties",
-          },
-          Object {
-            "clear": "type",
-            "target": "word/document.xml",
-            "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument",
-          },
-        ],
-        "srcFilesList": Array [],
-      },
-    ],
-    "domain": null,
+    "cMakePptxOutTextP": [Function],
+    "cbMakePptxLayout1": [Function],
+    "cbMakePptxSlide": [Function],
+    "createFieldText": [Function],
+    "fields": Object {
+      "DATE_DD_MN_YYYY": "datetime3",
+      "DATE_DD_SMN_YY": "datetime5",
+      "DATE_MM_DD_YYYY": "datetime1",
+      "DATE_MM_YY": "datetime6",
+      "DATE_MN_DD_YYYY": "datetime4",
+      "DATE_SMN_YY": "datetime7",
+      "DATE_TIME": "datetime",
+      "DATE_TIME_DD_MM_YYYY_HH_MM_PM": "datetime8",
+      "DATE_TIME_DD_MM_YYYY_HH_MM_SC_PM": "datetime9",
+      "DATE_WD_MN_DD_YYYY": "datetime2",
+      "SLIDE_NUM": "slidenum",
+      "TIME_HH_MM": "datetime10",
+      "TIME_HH_MM_PM": "datetime12",
+      "TIME_HH_MM_SC": "datetime11",
+      "TIME_HH_MM_SC_PM": "datetime13",
+    },
     "generate": [Function],
-    "getFooter": [Function],
-    "getHeader": [Function],
     "info": Object {
-      "cp:category": Object {
-        "data": "",
-        "def_data": "",
-        "element": "cp:category",
-      },
-      "cp:contentStatus": Object {
-        "data": "",
-        "def_data": "",
-        "element": "cp:contentStatus",
-      },
-      "cp:keywords": Object {
-        "data": "",
-        "def_data": "",
-        "element": "cp:keywords",
-      },
-      "dc:description": Object {
-        "data": "",
-        "def_data": "",
-        "element": "dc:description",
-      },
-      "dc:subject": Object {
-        "data": "",
-        "def_data": "",
-        "element": "dc:subject",
-      },
       "dc:title": Object {
         "data": "",
         "def_data": "",
         "element": "dc:title",
       },
     },
+    "makeNewLayout": [Function],
+    "makeNewSlide": [Function],
+    "makeObjSlide": [Function],
+    "makeSecHeadSlide": [Function],
+    "makeTitleSlide": [Function],
     "options": Object {
-      "type": "docx",
+      "tempDir": "./",
+      "type": "pptx",
     },
-    "putPageBreak": [Function],
-    "setDescription": [Function],
-    "setDocCategory": [Function],
-    "setDocKeywords": [Function],
-    "setDocStatus": [Function],
-    "setDocSubject": [Function],
     "setDocTitle": [Function],
+    "setSlideSize": [Function],
     "setTheme": [Function],
+    "setWidescreen": [Function],
+    "shapes": Object {
+      "ACTION_BUTTON_BACK_OR_PREVIOUS": Object {
+        "avLst": Object {},
+        "displayName": "Action Button: Back or Previous",
+        "name": "actionButtonBackPrevious",
+      },
+      "ACTION_BUTTON_BEGINNING": Object {
+        "avLst": Object {},
+        "displayName": "Action Button: Beginning",
+        "name": "actionButtonBeginning",
+      },
+      "ACTION_BUTTON_CUSTOM": Object {
+        "avLst": Object {},
+        "displayName": "Action Button: Custom",
+        "name": "actionButtonBlank",
+      },
+      "ACTION_BUTTON_DOCUMENT": Object {
+        "avLst": Object {},
+        "displayName": "Action Button: Document",
+        "name": "actionButtonDocument",
+      },
+      "ACTION_BUTTON_END": Object {
+        "avLst": Object {},
+        "displayName": "Action Button: End",
+        "name": "actionButtonEnd",
+      },
+      "ACTION_BUTTON_FORWARD_OR_NEXT": Object {
+        "avLst": Object {},
+        "displayName": "Action Button: Forward or Next",
+        "name": "actionButtonForwardNext",
+      },
+      "ACTION_BUTTON_HELP": Object {
+        "avLst": Object {},
+        "displayName": "Action Button: Help",
+        "name": "actionButtonHelp",
+      },
+      "ACTION_BUTTON_HOME": Object {
+        "avLst": Object {},
+        "displayName": "Action Button: Home",
+        "name": "actionButtonHome",
+      },
+      "ACTION_BUTTON_INFORMATION": Object {
+        "avLst": Object {},
+        "displayName": "Action Button: Information",
+        "name": "actionButtonInformation",
+      },
+      "ACTION_BUTTON_MOVIE": Object {
+        "avLst": Object {},
+        "displayName": "Action Button: Movie",
+        "name": "actionButtonMovie",
+      },
+      "ACTION_BUTTON_RETURN": Object {
+        "avLst": Object {},
+        "displayName": "Action Button: Return",
+        "name": "actionButtonReturn",
+      },
+      "ACTION_BUTTON_SOUND": Object {
+        "avLst": Object {},
+        "displayName": "Action Button: Sound",
+        "name": "actionButtonSound",
+      },
+      "ARC": Object {
+        "avLst": Object {
+          "adj1": 16200000,
+          "adj2": 0,
+        },
+        "displayName": "Arc",
+        "name": "arc",
+      },
+      "BALLOON": Object {
+        "avLst": Object {
+          "adj1": -20833,
+          "adj2": 62500,
+          "adj3": 16667,
+        },
+        "displayName": "Rounded Rectangular Callout",
+        "name": "wedgeRoundRectCallout",
+      },
+      "BENT_ARROW": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 25000,
+          "adj3": 25000,
+          "adj4": 43750,
+        },
+        "displayName": "Bent Arrow",
+        "name": "bentArrow",
+      },
+      "BENT_UP_ARROW": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 25000,
+          "adj3": 25000,
+        },
+        "displayName": "Bent-Up Arrow",
+        "name": "bentUpArrow",
+      },
+      "BEVEL": Object {
+        "avLst": Object {
+          "adj": 12500,
+        },
+        "displayName": "Bevel",
+        "name": "bevel",
+      },
+      "BLOCK_ARC": Object {
+        "avLst": Object {
+          "adj1": 10800000,
+          "adj2": 0,
+          "adj3": 25000,
+        },
+        "displayName": "Block Arc",
+        "name": "blockArc",
+      },
+      "CAN": Object {
+        "avLst": Object {
+          "adj": 25000,
+        },
+        "displayName": "Can",
+        "name": "can",
+      },
+      "CHART_PLUS": Object {
+        "avLst": Object {},
+        "displayName": "Chart Plus",
+        "name": "chartPlus",
+      },
+      "CHART_STAR": Object {
+        "avLst": Object {},
+        "displayName": "Chart Star",
+        "name": "chartStar",
+      },
+      "CHART_X": Object {
+        "avLst": Object {},
+        "displayName": "Chart X",
+        "name": "chartX",
+      },
+      "CHEVRON": Object {
+        "avLst": Object {
+          "adj": 50000,
+        },
+        "displayName": "Chevron",
+        "name": "chevron",
+      },
+      "CHORD": Object {
+        "avLst": Object {
+          "adj1": 2700000,
+          "adj2": 16200000,
+        },
+        "displayName": "Chord",
+        "name": "chord",
+      },
+      "CIRCULAR_ARROW": Object {
+        "avLst": Object {
+          "adj1": 12500,
+          "adj2": 1142319,
+          "adj3": 20457681,
+          "adj4": 10800000,
+          "adj5": 12500,
+        },
+        "displayName": "Circular Arrow",
+        "name": "circularArrow",
+      },
+      "CLOUD": Object {
+        "avLst": Object {},
+        "displayName": "Cloud",
+        "name": "cloud",
+      },
+      "CLOUD_CALLOUT": Object {
+        "avLst": Object {
+          "adj1": -20833,
+          "adj2": 62500,
+        },
+        "displayName": "Cloud Callout",
+        "name": "cloudCallout",
+      },
+      "CORNER": Object {
+        "avLst": Object {
+          "adj1": 50000,
+          "adj2": 50000,
+        },
+        "displayName": "Corner",
+        "name": "corner",
+      },
+      "CORNER_TABS": Object {
+        "avLst": Object {},
+        "displayName": "Corner Tabs",
+        "name": "cornerTabs",
+      },
+      "CROSS": Object {
+        "avLst": Object {
+          "adj": 25000,
+        },
+        "displayName": "Cross",
+        "name": "plus",
+      },
+      "CUBE": Object {
+        "avLst": Object {
+          "adj": 25000,
+        },
+        "displayName": "Cube",
+        "name": "cube",
+      },
+      "CURVED_CONNECTOR_3": Object {
+        "avLst": Object {
+          "adj1": 1800000,
+        },
+        "displayName": "Curved Connector 3",
+        "name": "curvedConnector3",
+      },
+      "CURVED_DOWN_ARROW": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 50000,
+          "adj3": 25000,
+        },
+        "displayName": "Curved Down Arrow",
+        "name": "curvedDownArrow",
+      },
+      "CURVED_DOWN_RIBBON": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 50000,
+          "adj3": 12500,
+        },
+        "displayName": "Curved Down Ribbon",
+        "name": "ellipseRibbon",
+      },
+      "CURVED_LEFT_ARROW": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 50000,
+          "adj3": 25000,
+        },
+        "displayName": "Curved Left Arrow",
+        "name": "curvedLeftArrow",
+      },
+      "CURVED_RIGHT_ARROW": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 50000,
+          "adj3": 25000,
+        },
+        "displayName": "Curved Right Arrow",
+        "name": "curvedRightArrow",
+      },
+      "CURVED_UP_ARROW": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 50000,
+          "adj3": 25000,
+        },
+        "displayName": "Curved Up Arrow",
+        "name": "curvedUpArrow",
+      },
+      "CURVED_UP_RIBBON": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 50000,
+          "adj3": 12500,
+        },
+        "displayName": "Curved Up Ribbon",
+        "name": "ellipseRibbon2",
+      },
+      "DECAGON": Object {
+        "avLst": Object {
+          "vf": 105146,
+        },
+        "displayName": "Decagon",
+        "name": "decagon",
+      },
+      "DIAGONAL_STRIPE": Object {
+        "avLst": Object {
+          "adj": 50000,
+        },
+        "displayName": "Diagonal Stripe",
+        "name": "diagStripe",
+      },
+      "DIAMOND": Object {
+        "avLst": Object {},
+        "displayName": "Diamond",
+        "name": "diamond",
+      },
+      "DODECAGON": Object {
+        "avLst": Object {},
+        "displayName": "Dodecagon",
+        "name": "dodecagon",
+      },
+      "DONUT": Object {
+        "avLst": Object {
+          "adj": 25000,
+        },
+        "displayName": "Donut",
+        "name": "donut",
+      },
+      "DOUBLE_BRACE": Object {
+        "avLst": Object {
+          "adj": 8333,
+        },
+        "displayName": "Double Brace",
+        "name": "bracePair",
+      },
+      "DOUBLE_BRACKET": Object {
+        "avLst": Object {
+          "adj": 16667,
+        },
+        "displayName": "Double Bracket",
+        "name": "bracketPair",
+      },
+      "DOUBLE_WAVE": Object {
+        "avLst": Object {
+          "adj1": 6250,
+          "adj2": 0,
+        },
+        "displayName": "Double Wave",
+        "name": "doubleWave",
+      },
+      "DOWN_ARROW": Object {
+        "avLst": Object {
+          "adj1": 50000,
+          "adj2": 50000,
+        },
+        "displayName": "Down Arrow",
+        "name": "downArrow",
+      },
+      "DOWN_ARROW_CALLOUT": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 25000,
+          "adj3": 25000,
+          "adj4": 64977,
+        },
+        "displayName": "Down Arrow Callout",
+        "name": "downArrowCallout",
+      },
+      "DOWN_RIBBON": Object {
+        "avLst": Object {
+          "adj1": 16667,
+          "adj2": 50000,
+        },
+        "displayName": "Down Ribbon",
+        "name": "ribbon",
+      },
+      "EXPLOSION1": Object {
+        "avLst": Object {},
+        "displayName": "Explosion",
+        "name": "irregularSeal1",
+      },
+      "EXPLOSION2": Object {
+        "avLst": Object {},
+        "displayName": "Explosion",
+        "name": "irregularSeal2",
+      },
+      "FLOWCHART_ALTERNATE_PROCESS": Object {
+        "avLst": Object {},
+        "displayName": "Alternate process",
+        "name": "flowChartAlternateProcess",
+      },
+      "FLOWCHART_CARD": Object {
+        "avLst": Object {},
+        "displayName": "Card",
+        "name": "flowChartPunchedCard",
+      },
+      "FLOWCHART_COLLATE": Object {
+        "avLst": Object {},
+        "displayName": "Collate",
+        "name": "flowChartCollate",
+      },
+      "FLOWCHART_CONNECTOR": Object {
+        "avLst": Object {},
+        "displayName": "Connector",
+        "name": "flowChartConnector",
+      },
+      "FLOWCHART_DATA": Object {
+        "avLst": Object {},
+        "displayName": "Data",
+        "name": "flowChartInputOutput",
+      },
+      "FLOWCHART_DECISION": Object {
+        "avLst": Object {},
+        "displayName": "Decision",
+        "name": "flowChartDecision",
+      },
+      "FLOWCHART_DELAY": Object {
+        "avLst": Object {},
+        "displayName": "Delay",
+        "name": "flowChartDelay",
+      },
+      "FLOWCHART_DIRECT_ACCESS_STORAGE": Object {
+        "avLst": Object {},
+        "displayName": "Direct Access Storage",
+        "name": "flowChartMagneticDrum",
+      },
+      "FLOWCHART_DISPLAY": Object {
+        "avLst": Object {},
+        "displayName": "Display",
+        "name": "flowChartDisplay",
+      },
+      "FLOWCHART_DOCUMENT": Object {
+        "avLst": Object {},
+        "displayName": "Document",
+        "name": "flowChartDocument",
+      },
+      "FLOWCHART_EXTRACT": Object {
+        "avLst": Object {},
+        "displayName": "Extract",
+        "name": "flowChartExtract",
+      },
+      "FLOWCHART_INTERNAL_STORAGE": Object {
+        "avLst": Object {},
+        "displayName": "Internal Storage",
+        "name": "flowChartInternalStorage",
+      },
+      "FLOWCHART_MAGNETIC_DISK": Object {
+        "avLst": Object {},
+        "displayName": "Magnetic Disk",
+        "name": "flowChartMagneticDisk",
+      },
+      "FLOWCHART_MANUAL_INPUT": Object {
+        "avLst": Object {},
+        "displayName": "Manual Input",
+        "name": "flowChartManualInput",
+      },
+      "FLOWCHART_MANUAL_OPERATION": Object {
+        "avLst": Object {},
+        "displayName": "Manual Operation",
+        "name": "flowChartManualOperation",
+      },
+      "FLOWCHART_MERGE": Object {
+        "avLst": Object {},
+        "displayName": "Merge",
+        "name": "flowChartMerge",
+      },
+      "FLOWCHART_MULTIDOCUMENT": Object {
+        "avLst": Object {},
+        "displayName": "Multidocument",
+        "name": "flowChartMultidocument",
+      },
+      "FLOWCHART_OFFLINE_STORAGE": Object {
+        "avLst": Object {},
+        "displayName": "Offline Storage",
+        "name": "flowChartOfflineStorage",
+      },
+      "FLOWCHART_OFFPAGE_CONNECTOR": Object {
+        "avLst": Object {},
+        "displayName": "Off-page Connector",
+        "name": "flowChartOffpageConnector",
+      },
+      "FLOWCHART_OR": Object {
+        "avLst": Object {},
+        "displayName": "Or",
+        "name": "flowChartOr",
+      },
+      "FLOWCHART_PREDEFINED_PROCESS": Object {
+        "avLst": Object {},
+        "displayName": "Predefined Process",
+        "name": "flowChartPredefinedProcess",
+      },
+      "FLOWCHART_PREPARATION": Object {
+        "avLst": Object {},
+        "displayName": "Preparation",
+        "name": "flowChartPreparation",
+      },
+      "FLOWCHART_PROCESS": Object {
+        "avLst": Object {},
+        "displayName": "Process",
+        "name": "flowChartProcess",
+      },
+      "FLOWCHART_PUNCHED_TAPE": Object {
+        "avLst": Object {},
+        "displayName": "Punched Tape",
+        "name": "flowChartPunchedTape",
+      },
+      "FLOWCHART_SEQUENTIAL_ACCESS_STORAGE": Object {
+        "avLst": Object {},
+        "displayName": "Sequential Access Storage",
+        "name": "flowChartMagneticTape",
+      },
+      "FLOWCHART_SORT": Object {
+        "avLst": Object {},
+        "displayName": "Sort",
+        "name": "flowChartSort",
+      },
+      "FLOWCHART_STORED_DATA": Object {
+        "avLst": Object {},
+        "displayName": "Stored Data",
+        "name": "flowChartOnlineStorage",
+      },
+      "FLOWCHART_SUMMING_JUNCTION": Object {
+        "avLst": Object {},
+        "displayName": "Summing Junction",
+        "name": "flowChartSummingJunction",
+      },
+      "FLOWCHART_TERMINATOR": Object {
+        "avLst": Object {},
+        "displayName": "Terminator",
+        "name": "flowChartTerminator",
+      },
+      "FOLDED_CORNER": Object {
+        "avLst": Object {},
+        "displayName": "Folded Corner",
+        "name": "folderCorner",
+      },
+      "FRAME": Object {
+        "avLst": Object {
+          "adj1": 12500,
+        },
+        "displayName": "Frame",
+        "name": "frame",
+      },
+      "FUNNEL": Object {
+        "avLst": Object {},
+        "displayName": "Funnel",
+        "name": "funnel",
+      },
+      "GEAR_6": Object {
+        "avLst": Object {
+          "adj1": 15000,
+          "adj2": 3526,
+        },
+        "displayName": "Gear 6",
+        "name": "gear6",
+      },
+      "GEAR_9": Object {
+        "avLst": Object {
+          "adj1": 10000,
+          "adj2": 1763,
+        },
+        "displayName": "Gear 9",
+        "name": "gear9",
+      },
+      "HALF_FRAME": Object {
+        "avLst": Object {
+          "adj1": 33333,
+          "adj2": 33333,
+        },
+        "displayName": "Half Frame",
+        "name": "halfFrame",
+      },
+      "HEART": Object {
+        "avLst": Object {},
+        "displayName": "Heart",
+        "name": "heart",
+      },
+      "HEPTAGON": Object {
+        "avLst": Object {
+          "hf": 102572,
+          "vf": 105210,
+        },
+        "displayName": "Heptagon",
+        "name": "heptagon",
+      },
+      "HEXAGON": Object {
+        "avLst": Object {
+          "adj": 25000,
+          "vf": 115470,
+        },
+        "displayName": "Hexagon",
+        "name": "hexagon",
+      },
+      "HORIZONTAL_SCROLL": Object {
+        "avLst": Object {
+          "adj": 12500,
+        },
+        "displayName": "Horizontal Scroll",
+        "name": "horizontalScroll",
+      },
+      "ISOSCELES_TRIANGLE": Object {
+        "avLst": Object {
+          "adj": 50000,
+        },
+        "displayName": "Isosceles Triangle",
+        "name": "triangle",
+      },
+      "LEFT_ARROW": Object {
+        "avLst": Object {
+          "adj1": 50000,
+          "adj2": 50000,
+        },
+        "displayName": "Left Arrow",
+        "name": "leftArrow",
+      },
+      "LEFT_ARROW_CALLOUT": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 25000,
+          "adj3": 25000,
+          "adj4": 64977,
+        },
+        "displayName": "Left Arrow Callout",
+        "name": "leftArrowCallout",
+      },
+      "LEFT_BRACE": Object {
+        "avLst": Object {
+          "adj1": 8333,
+          "adj2": 50000,
+        },
+        "displayName": "Left Brace",
+        "name": "leftBrace",
+      },
+      "LEFT_BRACKET": Object {
+        "avLst": Object {
+          "adj": 8333,
+        },
+        "displayName": "Left Bracket",
+        "name": "leftBracket",
+      },
+      "LEFT_CIRCULAR_ARROW": Object {
+        "avLst": Object {
+          "adj1": 12500,
+          "adj2": -1142319,
+          "adj3": 1142319,
+          "adj4": 10800000,
+          "adj5": 12500,
+        },
+        "displayName": "Left Circular Arrow",
+        "name": "leftCircularArrow",
+      },
+      "LEFT_RIGHT_ARROW": Object {
+        "avLst": Object {
+          "adj1": 50000,
+          "adj2": 50000,
+        },
+        "displayName": "Left-Right Arrow",
+        "name": "leftRightArrow",
+      },
+      "LEFT_RIGHT_ARROW_CALLOUT": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 25000,
+          "adj3": 25000,
+          "adj4": 48123,
+        },
+        "displayName": "Left-Right Arrow Callout",
+        "name": "leftRightArrowCallout",
+      },
+      "LEFT_RIGHT_CIRCULAR_ARROW": Object {
+        "avLst": Object {
+          "adj1": 12500,
+          "adj2": 1142319,
+          "adj3": 20457681,
+          "adj4": 11942319,
+          "adj5": 12500,
+        },
+        "displayName": "Left Right Circular Arrow",
+        "name": "leftRightCircularArrow",
+      },
+      "LEFT_RIGHT_RIBBON": Object {
+        "avLst": Object {
+          "adj1": 50000,
+          "adj2": 50000,
+          "adj3": 16667,
+        },
+        "displayName": "Left Right Ribbon",
+        "name": "leftRightRibbon",
+      },
+      "LEFT_RIGHT_UP_ARROW": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 25000,
+          "adj3": 25000,
+        },
+        "displayName": "Left-Right-Up Arrow",
+        "name": "leftRightUpArrow",
+      },
+      "LEFT_UP_ARROW": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 25000,
+          "adj3": 25000,
+        },
+        "displayName": "Left-Up Arrow",
+        "name": "leftUpArrow",
+      },
+      "LIGHTNING_BOLT": Object {
+        "avLst": Object {},
+        "displayName": "Lightning Bolt",
+        "name": "lightningBolt",
+      },
+      "LINE": Object {
+        "avLst": Object {},
+        "displayName": "Line",
+        "name": "line",
+      },
+      "LINE_CALLOUT_1": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 112500,
+          "adj4": -38333,
+        },
+        "displayName": "Line Callout 1",
+        "name": "borderCallout1",
+      },
+      "LINE_CALLOUT_1_ACCENT_BAR": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 112500,
+          "adj4": -38333,
+        },
+        "displayName": "Line Callout 1 {Accent Bar}",
+        "name": "accentCallout1",
+      },
+      "LINE_CALLOUT_1_BORDER_AND_ACCENT_BAR": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 112500,
+          "adj4": -38333,
+        },
+        "displayName": "Line Callout 1 {Border and Accent Bar}",
+        "name": "accentBorderCallout1",
+      },
+      "LINE_CALLOUT_1_NO_BORDER": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 112500,
+          "adj4": -38333,
+        },
+        "displayName": "Line Callout 1 {No Border}",
+        "name": "callout1",
+      },
+      "LINE_CALLOUT_2": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 18750,
+          "adj4": -16667,
+          "adj5": 112500,
+          "adj6": -46667,
+        },
+        "displayName": "Line Callout 2",
+        "name": "borderCallout2",
+      },
+      "LINE_CALLOUT_2_ACCENT_BAR": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 18750,
+          "adj4": -16667,
+          "adj5": 112500,
+          "adj6": -46667,
+        },
+        "displayName": "Line Callout 2 {Accent Bar}",
+        "name": "accentCallout2",
+      },
+      "LINE_CALLOUT_2_BORDER_AND_ACCENT_BAR": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 18750,
+          "adj4": -16667,
+          "adj5": 112500,
+          "adj6": -46667,
+        },
+        "displayName": "Line Callout 2 {Border and Accent Bar}",
+        "name": "accentBorderCallout2",
+      },
+      "LINE_CALLOUT_2_NO_BORDER": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 18750,
+          "adj4": -16667,
+          "adj5": 112500,
+          "adj6": -46667,
+        },
+        "displayName": "Line Callout 2 {No Border}",
+        "name": "callout2",
+      },
+      "LINE_CALLOUT_3": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 18750,
+          "adj4": -16667,
+          "adj5": 100000,
+          "adj6": -16667,
+          "adj7": 112963,
+          "adj8": -8333,
+        },
+        "displayName": "Line Callout 3",
+        "name": "borderCallout3",
+      },
+      "LINE_CALLOUT_3_ACCENT_BAR": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 18750,
+          "adj4": -16667,
+          "adj5": 100000,
+          "adj6": -16667,
+          "adj7": 112963,
+          "adj8": -8333,
+        },
+        "displayName": "Line Callout 3 {Accent Bar}",
+        "name": "accentCallout3",
+      },
+      "LINE_CALLOUT_3_BORDER_AND_ACCENT_BAR": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 18750,
+          "adj4": -16667,
+          "adj5": 100000,
+          "adj6": -16667,
+          "adj7": 112963,
+          "adj8": -8333,
+        },
+        "displayName": "Line Callout 3 {Border and Accent Bar}",
+        "name": "accentBorderCallout3",
+      },
+      "LINE_CALLOUT_3_NO_BORDER": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 18750,
+          "adj4": -16667,
+          "adj5": 100000,
+          "adj6": -16667,
+          "adj7": 112963,
+          "adj8": -8333,
+        },
+        "displayName": "Line Callout 3 {No Border}",
+        "name": "callout3",
+      },
+      "LINE_CALLOUT_4": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 18750,
+          "adj4": -16667,
+          "adj5": 100000,
+          "adj6": -16667,
+          "adj7": 112963,
+          "adj8": -8333,
+        },
+        "displayName": "Line Callout 3",
+        "name": "borderCallout3",
+      },
+      "LINE_CALLOUT_4_ACCENT_BAR": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 18750,
+          "adj4": -16667,
+          "adj5": 100000,
+          "adj6": -16667,
+          "adj7": 112963,
+          "adj8": -8333,
+        },
+        "displayName": "Line Callout 3 {Accent Bar}",
+        "name": "accentCallout3",
+      },
+      "LINE_CALLOUT_4_BORDER_AND_ACCENT_BAR": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 18750,
+          "adj4": -16667,
+          "adj5": 100000,
+          "adj6": -16667,
+          "adj7": 112963,
+          "adj8": -8333,
+        },
+        "displayName": "Line Callout 3 {Border and Accent Bar}",
+        "name": "accentBorderCallout3",
+      },
+      "LINE_CALLOUT_4_NO_BORDER": Object {
+        "avLst": Object {
+          "adj1": 18750,
+          "adj2": -8333,
+          "adj3": 18750,
+          "adj4": -16667,
+          "adj5": 100000,
+          "adj6": -16667,
+          "adj7": 112963,
+          "adj8": -8333,
+        },
+        "displayName": "Line Callout 3 {No Border}",
+        "name": "callout3",
+      },
+      "LINE_INVERSE": Object {
+        "avLst": Object {},
+        "displayName": "Straight Connector",
+        "name": "lineInv",
+      },
+      "MATH_DIVIDE": Object {
+        "avLst": Object {
+          "adj1": 23520,
+          "adj2": 5880,
+          "adj3": 11760,
+        },
+        "displayName": "Division",
+        "name": "mathDivide",
+      },
+      "MATH_EQUAL": Object {
+        "avLst": Object {
+          "adj1": 23520,
+          "adj2": 11760,
+        },
+        "displayName": "Equal",
+        "name": "mathEqual",
+      },
+      "MATH_MINUS": Object {
+        "avLst": Object {
+          "adj1": 23520,
+        },
+        "displayName": "Minus",
+        "name": "mathMinus",
+      },
+      "MATH_MULTIPLY": Object {
+        "avLst": Object {
+          "adj1": 23520,
+        },
+        "displayName": "Multiply",
+        "name": "mathMultiply",
+      },
+      "MATH_NOT_EQUAL": Object {
+        "avLst": Object {
+          "adj1": 23520,
+          "adj2": 6600000,
+          "adj3": 11760,
+        },
+        "displayName": "Not Equal",
+        "name": "mathNotEqual",
+      },
+      "MATH_PLUS": Object {
+        "avLst": Object {
+          "adj1": 23520,
+        },
+        "displayName": "Plus",
+        "name": "mathPlus",
+      },
+      "MOON": Object {
+        "avLst": Object {
+          "adj": 50000,
+        },
+        "displayName": "Moon",
+        "name": "moon",
+      },
+      "NON_ISOSCELES_TRAPEZOID": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 25000,
+        },
+        "displayName": "Non-isosceles Trapezoid",
+        "name": "nonIsoscelesTrapezoid",
+      },
+      "NOTCHED_RIGHT_ARROW": Object {
+        "avLst": Object {
+          "adj1": 50000,
+          "adj2": 50000,
+        },
+        "displayName": "Notched Right Arrow",
+        "name": "notchedRightArrow",
+      },
+      "NO_SYMBOL": Object {
+        "avLst": Object {
+          "adj": 18750,
+        },
+        "displayName": "\\"No\\" symbol",
+        "name": "noSmoking",
+      },
+      "OCTAGON": Object {
+        "avLst": Object {
+          "adj": 29289,
+        },
+        "displayName": "Octagon",
+        "name": "octagon",
+      },
+      "OVAL": Object {
+        "avLst": Object {},
+        "displayName": "Oval",
+        "name": "ellipse",
+      },
+      "OVAL_CALLOUT": Object {
+        "avLst": Object {
+          "adj1": -20833,
+          "adj2": 62500,
+        },
+        "displayName": "Oval Callout",
+        "name": "wedgeEllipseCallout",
+      },
+      "PARALLELOGRAM": Object {
+        "avLst": Object {
+          "adj": 25000,
+        },
+        "displayName": "Parallelogram",
+        "name": "parallelogram",
+      },
+      "PENTAGON": Object {
+        "avLst": Object {
+          "adj": 50000,
+        },
+        "displayName": "Pentagon",
+        "name": "homePlate",
+      },
+      "PIE": Object {
+        "avLst": Object {
+          "adj1": 0,
+          "adj2": 16200000,
+        },
+        "displayName": "Pie",
+        "name": "pie",
+      },
+      "PIE_WEDGE": Object {
+        "avLst": Object {},
+        "displayName": "Pie",
+        "name": "pieWedge",
+      },
+      "PLAQUE": Object {
+        "avLst": Object {
+          "adj": 16667,
+        },
+        "displayName": "Plaque",
+        "name": "plaque",
+      },
+      "PLAQUE_TABS": Object {
+        "avLst": Object {},
+        "displayName": "Plaque Tabs",
+        "name": "plaqueTabs",
+      },
+      "QUAD_ARROW": Object {
+        "avLst": Object {
+          "adj1": 22500,
+          "adj2": 22500,
+          "adj3": 22500,
+        },
+        "displayName": "Quad Arrow",
+        "name": "quadArrow",
+      },
+      "QUAD_ARROW_CALLOUT": Object {
+        "avLst": Object {
+          "adj1": 18515,
+          "adj2": 18515,
+          "adj3": 18515,
+          "adj4": 48123,
+        },
+        "displayName": "Quad Arrow Callout",
+        "name": "quadArrowCallout",
+      },
+      "RECTANGLE": Object {
+        "avLst": Object {},
+        "displayName": "Rectangle",
+        "name": "rect",
+      },
+      "RECTANGULAR_CALLOUT": Object {
+        "avLst": Object {
+          "adj1": -20833,
+          "adj2": 62500,
+        },
+        "displayName": "Rectangular Callout",
+        "name": "wedgeRectCallout",
+      },
+      "REGULAR_PENTAGON": Object {
+        "avLst": Object {
+          "hf": 105146,
+          "vf": 110557,
+        },
+        "displayName": "Regular Pentagon",
+        "name": "pentagon",
+      },
+      "RIGHT_ARROW": Object {
+        "avLst": Object {
+          "adj1": 50000,
+          "adj2": 50000,
+        },
+        "displayName": "Right Arrow",
+        "name": "rightArrow",
+      },
+      "RIGHT_ARROW_CALLOUT": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 25000,
+          "adj3": 25000,
+          "adj4": 64977,
+        },
+        "displayName": "Right Arrow Callout",
+        "name": "rightArrowCallout",
+      },
+      "RIGHT_BRACE": Object {
+        "avLst": Object {
+          "adj1": 8333,
+          "adj2": 50000,
+        },
+        "displayName": "Right Brace",
+        "name": "rightBrace",
+      },
+      "RIGHT_BRACKET": Object {
+        "avLst": Object {
+          "adj": 8333,
+        },
+        "displayName": "Right Bracket",
+        "name": "rightBracket",
+      },
+      "RIGHT_TRIANGLE": Object {
+        "avLst": Object {},
+        "displayName": "Right Triangle",
+        "name": "rtTriangle",
+      },
+      "ROUNDED_RECTANGLE": Object {
+        "avLst": Object {
+          "adj": 16667,
+        },
+        "displayName": "Rounded Rectangle",
+        "name": "roundRect",
+      },
+      "ROUNDED_RECTANGULAR_CALLOUT": Object {
+        "avLst": Object {
+          "adj1": -20833,
+          "adj2": 62500,
+          "adj3": 16667,
+        },
+        "displayName": "Rounded Rectangular Callout",
+        "name": "wedgeRoundRectCallout",
+      },
+      "ROUND_1_RECTANGLE": Object {
+        "avLst": Object {
+          "adj": 16667,
+        },
+        "displayName": "Round Single Corner Rectangle",
+        "name": "round1Rect",
+      },
+      "ROUND_2_DIAG_RECTANGLE": Object {
+        "avLst": Object {
+          "adj1": 16667,
+          "adj2": 0,
+        },
+        "displayName": "Round Diagonal Corner Rectangle",
+        "name": "round2DiagRect",
+      },
+      "ROUND_2_SAME_RECTANGLE": Object {
+        "avLst": Object {
+          "adj1": 16667,
+          "adj2": 0,
+        },
+        "displayName": "Round Same Side Corner Rectangle",
+        "name": "round2SameRect",
+      },
+      "SMILEY_FACE": Object {
+        "avLst": Object {
+          "adj": 4653,
+        },
+        "displayName": "Smiley Face",
+        "name": "smileyFace",
+      },
+      "SNIP_1_RECTANGLE": Object {
+        "avLst": Object {
+          "adj": 16667,
+        },
+        "displayName": "Snip Single Corner Rectangle",
+        "name": "snip1Rect",
+      },
+      "SNIP_2_DIAG_RECTANGLE": Object {
+        "avLst": Object {
+          "adj1": 0,
+          "adj2": 16667,
+        },
+        "displayName": "Snip Diagonal Corner Rectangle",
+        "name": "snip2DiagRect",
+      },
+      "SNIP_2_SAME_RECTANGLE": Object {
+        "avLst": Object {
+          "adj1": 16667,
+          "adj2": 0,
+        },
+        "displayName": "Snip Same Side Corner Rectangle",
+        "name": "snip2SameRect",
+      },
+      "SNIP_ROUND_RECTANGLE": Object {
+        "avLst": Object {
+          "adj1": 16667,
+          "adj2": 16667,
+        },
+        "displayName": "Snip and Round Single Corner Rectangle",
+        "name": "snipRoundRect",
+      },
+      "SQUARE_TABS": Object {
+        "avLst": Object {},
+        "displayName": "Square Tabs",
+        "name": "squareTabs",
+      },
+      "STAR_10_POINT": Object {
+        "avLst": Object {
+          "adj": 42533,
+          "hf": 105146,
+        },
+        "displayName": "10-Point Star",
+        "name": "star10",
+      },
+      "STAR_12_POINT": Object {
+        "avLst": Object {
+          "adj": 37500,
+        },
+        "displayName": "12-Point Star",
+        "name": "star12",
+      },
+      "STAR_16_POINT": Object {
+        "avLst": Object {
+          "adj": 37500,
+        },
+        "displayName": "16-Point Star",
+        "name": "star16",
+      },
+      "STAR_24_POINT": Object {
+        "avLst": Object {
+          "adj": 37500,
+        },
+        "displayName": "24-Point Star",
+        "name": "star24",
+      },
+      "STAR_32_POINT": Object {
+        "avLst": Object {
+          "adj": 37500,
+        },
+        "displayName": "32-Point Star",
+        "name": "star32",
+      },
+      "STAR_4_POINT": Object {
+        "avLst": Object {
+          "adj": 12500,
+        },
+        "displayName": "4-Point Star",
+        "name": "star4",
+      },
+      "STAR_5_POINT": Object {
+        "avLst": Object {
+          "adj": 19098,
+          "hf": 105146,
+          "vf": 110557,
+        },
+        "displayName": "5-Point Star",
+        "name": "star5",
+      },
+      "STAR_6_POINT": Object {
+        "avLst": Object {
+          "adj": 28868,
+          "hf": 115470,
+        },
+        "displayName": "6-Point Star",
+        "name": "star6",
+      },
+      "STAR_7_POINT": Object {
+        "avLst": Object {
+          "adj": 34601,
+          "hf": 102572,
+          "vf": 105210,
+        },
+        "displayName": "7-Point Star",
+        "name": "star7",
+      },
+      "STAR_8_POINT": Object {
+        "avLst": Object {
+          "adj": 37500,
+        },
+        "displayName": "8-Point Star",
+        "name": "star8",
+      },
+      "STRIPED_RIGHT_ARROW": Object {
+        "avLst": Object {
+          "adj1": 50000,
+          "adj2": 50000,
+        },
+        "displayName": "Striped Right Arrow",
+        "name": "stripedRightArrow",
+      },
+      "SUN": Object {
+        "avLst": Object {
+          "adj": 25000,
+        },
+        "displayName": "Sun",
+        "name": "sun",
+      },
+      "SWOOSH_ARROW": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 16667,
+        },
+        "displayName": "Swoosh Arrow",
+        "name": "swooshArrow",
+      },
+      "TEAR": Object {
+        "avLst": Object {
+          "adj": 100000,
+        },
+        "displayName": "Teardrop",
+        "name": "teardrop",
+      },
+      "TRAPEZOID": Object {
+        "avLst": Object {
+          "adj": 25000,
+        },
+        "displayName": "Trapezoid",
+        "name": "trapezoid",
+      },
+      "UP_ARROW": Object {
+        "avLst": Object {},
+        "displayName": "Up Arrow",
+        "name": "upArrow",
+      },
+      "UP_ARROW_CALLOUT": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 25000,
+          "adj3": 25000,
+          "adj4": 64977,
+        },
+        "displayName": "Up Arrow Callout",
+        "name": "upArrowCallout",
+      },
+      "UP_DOWN_ARROW": Object {
+        "avLst": Object {
+          "adj1": 50000,
+          "adj2": 50000,
+        },
+        "displayName": "Up-Down Arrow",
+        "name": "upDownArrow",
+      },
+      "UP_DOWN_ARROW_CALLOUT": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 25000,
+          "adj3": 25000,
+          "adj4": 48123,
+        },
+        "displayName": "Up-Down Arrow Callout",
+        "name": "upDownArrowCallout",
+      },
+      "UP_RIBBON": Object {
+        "avLst": Object {
+          "adj1": 16667,
+          "adj2": 50000,
+        },
+        "displayName": "Up Ribbon",
+        "name": "ribbon2",
+      },
+      "U_TURN_ARROW": Object {
+        "avLst": Object {
+          "adj1": 25000,
+          "adj2": 25000,
+          "adj3": 25000,
+          "adj4": 43750,
+          "adj5": 75000,
+        },
+        "displayName": "U-Turn Arrow",
+        "name": "uturnArrow",
+      },
+      "VERTICAL_SCROLL": Object {
+        "avLst": Object {
+          "adj": 12500,
+        },
+        "displayName": "Vertical Scroll",
+        "name": "verticalScroll",
+      },
+      "WAVE": Object {
+        "avLst": Object {
+          "adj1": 12500,
+          "adj2": 0,
+        },
+        "displayName": "Wave",
+        "name": "wave",
+      },
+    },
+    "slideMasterRels": Array [
+      Object {
+        "target": "../slideLayouts/slideLayout1.xml",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+      },
+      Object {
+        "target": "../theme/theme1.xml",
+        "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme",
+      },
+    ],
     "startNewDoc": [Function],
     "theme": null,
   },

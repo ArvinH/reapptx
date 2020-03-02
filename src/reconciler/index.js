@@ -1,85 +1,85 @@
-import { Text, Slide, PPTXDocument } from '../components';
+import { Text, Slide, PPTXDocument } from "../components";
 
-const Reconciler = require('react-reconciler');
-let ROOT_NODE_INSTANCE = null;
+const Reconciler = require("react-reconciler");
 
 const hostConfig = {
-	appendInitialChild(parentInstance, child) {
-		if (parentInstance.appendChild) {
-			parentInstance.appendChild(child);
-		}
+  appendInitialChild(parentInstance, child) {
+    if (parentInstance.appendChild) {
+      parentInstance.appendChild(child);
+    }
+  },
+
+  createInstance(
+    type,
+    props,
+    rootContainerInstance,
+    hostContext,
+    internalInstanceHandle
+  ) {
+    const COMPONENTS = {
+      ROOT: () => new PPTXDocument(),
+      TEXT: () => new Text(rootContainerInstance, props),
+      SLIDE: () => new Slide(rootContainerInstance, props),
+      default: undefined
+    };
+
+    return COMPONENTS[type]() || COMPONENTS.default;
+  },
+
+  getRootHostContext(instance) {
+    return {};
 	},
 
-	createInstance(type, props, internalInstanceHandle) {
-		const COMPONENTS = {
-			ROOT: () => new PPTXDocument(),
-			TEXT: () => new Text(ROOT_NODE_INSTANCE, props),
-			SLIDE: () => new Slide(ROOT_NODE_INSTANCE, props),
-			default: undefined,
-		};
-	
-		return COMPONENTS[type]() || COMPONENTS.default;
-	},
+	getChildHostContext(parentHostContext, type, rootContainerInstance) {
+    return {};
+  },
 
-	createTextInstance(text, rootContainerInstance, internalInstanceHandle) {
-		return text;
-	},
+  shouldSetTextContent(type, props) {
+    return false;
+  },
 
-	finalizeInitialChildren(wordElement, type, props) {
-		return false;
-	},
+  createTextInstance(
+    text,
+    rootContainerInstance,
+    hostContext,
+    internalInstanceHandle
+  ) {
+    return text;
+  },
 
-	getPublicInstance(inst) {
-		return inst;
-	},
+  finalizeInitialChildren(
+    parentInstance,
+    type,
+    props,
+    rootContainerInstance,
+    hostContext
+  ) {
+    return false;
+  },
 
-	prepareForCommit() {
+  getPublicInstance(inst) {
+    return inst;
+  },
+
+  prepareForCommit(rootcontainerInfo) {
+    // noop
+  },
+
+  resetAfterCommit(rootcontainerInfo) {
+    // noop
+  },
+
+  appendChildToContainer(container, child) {
 		// noop
-	},
+  },
 
-	prepareUpdate(wordElement, type, oldProps, newProps) {
-		return true;
-	},
+  removeChildFromContainer(container, child) {
+    // noop
+  },
 
-	resetAfterCommit() {
-		// noop
-	},
+  now: () => {},
 
-	resetTextContent(wordElement) {
-		// noop
-	},
-
-	appendChildToContainer() {
-		// noop
-	},
-
-	removeChildFromContainer() {
-		// noop
-	},
-
-	getRootHostContext(instance) {
-		if (typeof instance !== undefined) {
-			return (ROOT_NODE_INSTANCE = instance);
-		} else {
-			console.warn(`${instance} is not an instance of officegen docx constructor.`);
-	
-			return (ROOT_NODE_INSTANCE = new PPTXDocument());
-		}
-	},
-
-	getChildHostContext(instance) {
-		// return emptyObject;
-	},
-
-	shouldSetTextContent(type, props) {
-		return false;
-	},
-
-	now: () => {},
-
-	useSyncScheduling: true,
-
-	supportsMutation: true,
+  supportsMutation: true
 };
 const PPTXRenderer = Reconciler(hostConfig);
 

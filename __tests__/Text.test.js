@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text } from '../src/';
+import { Slide, Text } from '../src/';
 import render from '../src/testRenderer';
 
 it('sanity check', () => {
@@ -9,7 +9,7 @@ it('sanity check', () => {
 
 it('should render the children', () => {
   const App = () => (
-    <Text>Hello ! This is a test for rendering the children!</Text>
+    <Slide><Text>Hello ! This is a test for rendering the children!</Text></Slide>
   );
 
   expect(render(<App />)).toMatchSnapshot();
